@@ -1,0 +1,38 @@
+{
+  "name": "website",
+  "description": "Website for the Pulsate project",
+  "packageManager": "pnpm@9.5.0",
+  "type": "module",
+  "author": {
+    "name": "pulsate-dev",
+    "email": "info@pulsate.dev"
+  },
+  "scripts": {
+    "start": "remix-serve ./build/server/index.js",
+    "dev": "remix vite:dev",
+    "build": "remix vite:build",
+    "clean": "rm -r ./build",
+    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "format": "biome format --write .",
+    "check:format": "biome format \"./**/*.{js,ts,md}\"",
+    "typecheck": "tsc",
+    "postinstall": "lefthook install"
+  },
+  "dependencies": {
+    "@remix-run/node": "^2.10.3",
+    "@remix-run/react": "^2.10.3",
+    "@remix-run/serve": "^2.10.3",
+    "isbot": "^5.1.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@remix-run/dev": "^2.10.3",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "lefthook": "^1.7.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  }
+}
