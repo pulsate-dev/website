@@ -1,0 +1,64 @@
+import { Card, Cards } from 'nextra/components'
+import TipCallout from "../../components/molecules/TipCallout";
+
+# Pulsate について
+
+オープンソースの分散型ソーシャルネットワークソフトウェアです。2023年9月10日から開発が開始し、既存の分散型SNSである Mastodon や Misskey に大きな影響を受けています。
+
+<TipCallout>
+  **Pulsate** という名前の由来は、開発者である [m1sk9](https://github.com/m1sk9) が好きなバンドである indigo la End のアルバム『PULSATE』が由来です。
+</TipCallout>
+
+## 分散型 / ActivityPub
+
+**分散型 (非中央集権: `decentralized` )** とは、複数のサーバーが分散して存在しそれらが互いに通信することでネットワークを形成することを指します。一つのサーバーに対して通信しネットワークを形成するのは **中央集権** と呼ばれ、現代の X (Twitter) や Facebook, Instagram などほとんどのサービスが中央集権型です。
+
+Pulsate は分散型ソーシャルネットワークのためのプロトコル **ActivityPub** を実装しています。この ActivityPub はアプリケーション同士の通信に標準化されたモデルを提供しているため、ActivityPub を実装している他のサーバー (Mastodon や Misskey) のユーザーのことをフォローしたり、投稿を共有できます。
+
+## 特徴
+
+Pulsate は次の特徴を持ちます。既存の主要分散型SNSである Mastodon や Misskey との違いは [比較]() で確認できます。
+
+- 🏎️ **Performance** ： Pulsateは、MisskeyやMastodonのような他のActivityPub実装よりも高速に設計されています。
+- 🌎 **Federation** ： Pulsateは分散型ソーシャルネットワークで、ActivityPubプロトコルを使って他のサーバー（MisskeyやMastodonなど）と通信します。
+- 🪄 **Customizable** ： Pulsateは、修正やカスタマイズが簡単にできるように設計されています。外観を変えたり、新しい機能を追加したり、既存の機能を削除したりできます。**またコミュニティによるサポートも充実しているため、サードパーティクライアントの開発**も容易です。
+- 🔒 **Security** ： Pulsateはセキュリティに重点を置いており、ユーザーデータの保護と安全性を確保しています。
+- ❤️ **User Friendly:** ： Pulsateはユーザーフレンドリーに設計されており、すっきりとした直感的なインターフェースで使いやすくなっています。
+
+## 開発者
+
+Pulsate は複数人で構成されたプロジェクトチーム [**Pulsate Project Team**](/docs/team) & [**コミュニティメンバー**](https://github.com/pulsate-dev/pulsate/blob/main/AUTHORS.md) によって開発・維持されています。オープンソースなので、誰でも開発に参加できます。
+
+**主要開発者**
+
+<Cards>
+  <Card image arrow title="Sho Sakuma" href="https://github.com/m1sk9">
+    <>![](https://github.com/m1sk9.png)</>
+  </Card>
+  <Card image arrow title="Tatsuto Yamamoto" href="https://github.com/laminne">
+    <>![](https://github.com/laminne.png)</>
+  </Card>
+  <Card image arrow title="Mikuroさいな" href="https://github.com/MikuroXina">
+    <>![](https://github.com/MikuroXina.png)</>
+  </Card>
+</Cards>
+
+チームについての詳しい情報は [こちら](/docs/team) をご覧ください。
+
+## プロジェクトの目標
+
+Pulsate は **高速で安全な次世代の ActivityPub 実装** を目指して開発を進めています。
+
+- パフォーマンス重視
+- セキュリティ重視
+- ActivityPub 準拠
+
+## オープンソースと透明化
+
+Pulsate は常にオープンソースとして全てのソースコードを公開し続けます。コミュニティメンバーによる貢献も歓迎しています。 Pulsate は [**Apache License 2.0**](https://github.com/pulsate-dev/pulsate/blob/main/LICENSE) の下で公開されています。
+
+また Pulsate はチームの透明化を重視しており、開発の進捗や議論は [GitHub](https://link.pulsate.dev/github) や [Discord](https://link.pulsate/discord) で公開できる範囲で開示を行っています。
+
+## FAQ
+
+よくある質問については [こちら](/docs/faq) をご覧ください。
