@@ -1,5 +1,6 @@
 import style from "./style/root.module.css";
 import Navigation from "../components/organisms/Navigation";
+import {Callout} from "nextra/components";
 
 <style jsx global>{`
   body {
@@ -28,6 +29,15 @@ import Navigation from "../components/organisms/Navigation";
 </div>
 
 Pulsate は簡単に変更でき、高速かつユーザー・開発者にとって使いやすい ActivityPub 実装における次世代の分散型ソーシャルネットワーキングです。
+
+<div className={style.nav}>
+  <Callout type={"warning"}>
+    現在 Pulsate は開発中です。最新情報は [GitHub](https://link.pulsate.dev/github), [Discord](https://link.pulsate.dev/discord) で確認できます。
+  </Callout>
+  <Callout type={"info"} emoji="🫶">
+    現在 [プロジェクトチーム](/docs/team) の新メンバーを募集しています。興味のある方はぜひ [Discord](https://link.pulsate.dev/discord) に参加し, `@laminne33569` まで DM でお問い合わせください。
+  </Callout>
+</div>
 
 <div className={style.nav}>
   <Navigation />

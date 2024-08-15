@@ -1,5 +1,6 @@
 import style from "./style/root.module.css";
 import Navigation from "../components/organisms/Navigation";
+import {Callout} from "nextra/components";
 
 <style jsx global>{`
   body {
@@ -28,6 +29,12 @@ import Navigation from "../components/organisms/Navigation";
 </div>
 
 Pulsate is the next generation of distributed social networking in the ActivityPub implementation and is easy to modify, fast, and developer and user-friendly.
+
+<div className={style.nav}>
+  <Callout type={"warning"}>
+    Pulsate is currently under development. The latest information can be found on [GitHub](https://link.pulsate.dev/github), [Discord](https://link.pulsate.dev/discord).
+  </Callout>
+</div>
 
 <div className={style.nav}>
   <Navigation />
