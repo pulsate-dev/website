@@ -11,5 +11,9 @@
   "docs": {
     "title": "Documentation",
     "type": "page"
+  },
+  "release-note": {
+    "title": "Release Note",
+    "type": "page"
   }
 }

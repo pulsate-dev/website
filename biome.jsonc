@@ -3,7 +3,7 @@
   // general
   "files": {
     "ignore": [".next/**"],
-    "include": ["pages/**", "next.config.js"]
+    "include": ["pages/**", "components/**", "next.config.js"]
   },
 
   // formatter
