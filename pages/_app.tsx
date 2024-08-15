@@ -1,5 +1,9 @@
 import localFont from 'next/font/local';
 
+/*
+ * "LINE Seed JP" licensed under the SIL Open Font License
+ * https://seed.line.me/
+ */
 const lineSeed = localFont({
   src: [
     {

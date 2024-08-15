@@ -22,3 +22,7 @@ pnpm dev
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+#### Font: LINE Seed JP
+
+The font used in this project is [LINE Seed JP](https://seed.line.me/). It is licensed under the [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
