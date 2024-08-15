@@ -1,4 +1,4 @@
-import { Callout } from 'nextra/dist/components';
+import { Callout } from 'nextra/components';
 import { useEffect, useState } from 'react';
 
 /**
@@ -20,7 +20,7 @@ export default function FetchVersion({ versionTag }: { versionTag: string }) {
 
   const fetchVersion = async (versionTag: string) => {
     const res = await fetch(
-      `https://api.github.com/repos/m1sk9/babyrite/releases/tags/${versionTag}`,
+      `https://api.github.com/repos/pulsate-dev/pulsate/releases/tags/${versionTag}`,
     );
     const data = await res.json();
     setLatestVersionTag(data.tag_name as string);
@@ -31,9 +31,9 @@ export default function FetchVersion({ versionTag }: { versionTag: string }) {
   };
 
   return (
-    <Callout>
+    <Callout type="info" emoji="🗓">
       Release:{' '}
-      <a href={releaseNoteURL} rel="noreferrer" style={{ color: '#016BE6' }}>
+      <a href={releaseNoteURL} rel="noreferrer">
         {latestVersionTag} ({releaseDate})
       </a>
     </Callout>
