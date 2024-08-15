@@ -1,0 +1,33 @@
+{
+	"name": "docs",
+	"description": "Documentation for pulsate project",
+	"packageManager": "pnpm@9.5.0",
+	"author": {
+		"name": "pulsate-dev",
+		"email": "info@pulsate.dev"
+	},
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"lint": "biome check --write .",
+		"check:lint": "biome check .",
+		"format": "biome format --write .",
+		"check:format": "biome format .",
+		"postinstall": "lefthook install"
+	},
+	"dependencies": {
+		"next": "^14.2.5",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"nextra": "^2.13.4",
+		"nextra-theme-docs": "^2.13.4"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"lefthook": "^1.7.4",
+		"typescript": "^5.5.3"
+	}
+}

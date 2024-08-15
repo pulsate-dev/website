@@ -1,0 +1,11 @@
+{
+  "index": {
+    "title": "はじめに",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "timestamp": false,
+      "typesetting": "article"
+    }
+  }
+}

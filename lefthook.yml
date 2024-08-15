@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    check:
+      glob: '*.tsx'
+      # Run `pnpm biome check` for all files (formatter and linter)
+      run: pnpm biome check
