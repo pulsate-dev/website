@@ -1,11 +1,15 @@
 {
   "index": {
-    "title": "Introduction",
+    "title": "index",
     "type": "page",
     "display": "hidden",
     "theme": {
       "timestamp": false,
       "typesetting": "article"
     }
+  },
+  "docs": {
+    "title": "Documentation",
+    "type": "page"
   }
 }

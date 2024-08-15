@@ -1,11 +1,15 @@
 {
   "index": {
-    "title": "はじめに",
+    "title": "index",
     "type": "page",
     "display": "hidden",
     "theme": {
       "timestamp": false,
       "typesetting": "article"
     }
+  },
+  "docs": {
+    "title": "ドキュメント",
+    "type": "page"
   }
 }
