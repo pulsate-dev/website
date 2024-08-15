@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment } from 'react';
 
 interface NavigationProps {
   key: string;
@@ -6,16 +6,16 @@ interface NavigationProps {
 }
 
 const NavigationItems: NavigationProps[] = [
-  { key: "Getting Started", href: "/getting-started" },
-]
+  { key: 'Getting Started', href: '/getting-started' },
+];
 
 export default function Navigation() {
   return (
     <nav>
       {NavigationItems.map((item, index) => (
-        <Fragment key={index}>
+        <Fragment key={item.key}>
           <a href={item.href}>{item.key}</a>
-          {index < NavigationItems.length - 1 && " ・ "}
+          {index < NavigationItems.length - 1 && ' ・ '}
         </Fragment>
       ))}
     </nav>
