@@ -7,6 +7,13 @@ const repositoryURL = 'https://github.com/pulsate-dev/docs';
 const themeConfig: DocsThemeConfig = {
   docsRepositoryBase: `${repositoryURL}/edit/main/`,
   darkMode: true,
+  banner: {
+    dismissible: true,
+    key: 'first-published',
+    text: (
+      <a href="/docs/about">Hello Pulsate 👋: Introduction Pulsate →</a>
+    )
+  },
   chat: {
     link: 'https://link.pulsate.dev/discord'
   },
