@@ -5,5 +5,11 @@
       "toc": false
     }
   },
-  "about": "About Pulsate"
+  "about": "About Pulsate",
+  "team": {
+    "title": "Project Team",
+    "theme": {
+      "toc": false
+    }
+  }
 }

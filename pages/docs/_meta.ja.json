@@ -5,5 +5,11 @@
       "toc": false
     }
   },
-  "about": "Pulsate について"
+  "about": "Pulsate について",
+  "team": {
+    "title": "プロジェクトチーム",
+    "theme": {
+      "toc": false
+    }
+  }
 }
