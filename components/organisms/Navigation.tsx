@@ -6,7 +6,15 @@ interface NavigationProps {
 }
 
 const NavigationItems: NavigationProps[] = [
-  { key: 'Getting Started', href: '/getting-started' },
+  // FIXME: Uncomment this line to add a link to the Getting Started page
+  // { key: 'Getting Started', href: '/docs/user/getting-started' },
+  { key: 'Introduction', href: '/docs/about' },
+  { key: 'Release Note', href: '/release-note' },
+  { key: 'GitHub ↗', href: 'https://github.com/pulsate-dev/pulsate' },
+  {
+    key: 'Roadmap ↗',
+    href: 'https://github.com/orgs/pulsate-dev/projects/5',
+  },
 ];
 
 export default function Navigation() {
