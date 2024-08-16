@@ -13,7 +13,7 @@ const NavigationItems: NavigationProps[] = [
   { key: 'GitHub ↗', href: 'https://github.com/pulsate-dev/pulsate' },
   {
     key: 'Roadmap ↗',
-    href: 'https://github.com/orgs/pulsate-dev/projects/5',
+    href: '/roadmap',
   },
 ];
 

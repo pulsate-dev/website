@@ -15,5 +15,10 @@
   "release-note": {
     "title": "Release Note",
     "type": "page"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "type": "page",
+    "display": "hidden"
   }
 }

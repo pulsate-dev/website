@@ -15,5 +15,10 @@
   "release-note": {
     "title": "リリースノート",
     "type": "page"
+  },
+  "roadmap": {
+    "title": "ロードマップ",
+    "type": "page",
+    "display": "hidden"
   }
 }
