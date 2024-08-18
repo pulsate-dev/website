@@ -21,12 +21,20 @@
     "type": "page",
     "display": "hidden"
   },
-  "api": {
-    "title": "API Reference",
-    "type": "page",
-    "display": "hidden",
-    "theme": {
-      "layout": "raw"
+  "other": {
+    "title": "Other",
+    "type": "menu",
+    "items": {
+      "blog": {
+        "title": "Blog ↗",
+        "href": "https://blog.pulsate.dev",
+        "newWindow": true
+      },
+      "spec": {
+        "title": "Pulsate Specification ↗",
+        "href": "https://spec.pulsate.dev",
+        "newWindow": true
+      }
     }
   }
 }
