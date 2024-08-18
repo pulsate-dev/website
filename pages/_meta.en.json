@@ -20,5 +20,13 @@
     "title": "Roadmap",
     "type": "page",
     "display": "hidden"
+  },
+  "api": {
+    "title": "API Reference",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
   }
 }

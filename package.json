@@ -17,6 +17,8 @@
 		"postinstall": "lefthook install"
 	},
 	"dependencies": {
+		"@scalar/api-reference-react": "^0.3.79",
+		"@scalar/nextjs-api-reference": "^0.4.79",
 		"next": "^14.2.5",
 		"nextra": "^2.13.4",
 		"nextra-theme-docs": "^2.13.4",
