@@ -20,5 +20,23 @@
     "title": "ロードマップ",
     "type": "page",
     "display": "hidden"
+  },
+  "api": {
+    "title": "API リファレンス",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "other": {
+    "title": "その他",
+    "type": "menu",
+    "items": {
+      "api-reference": {
+        "title": "API リファレンス",
+        "href": "/api"
+      }
+    }
   }
 }
