@@ -11,10 +11,16 @@ import '@scalar/api-reference-react/style.css';
  * @return The API reference component.
  */
 export default function ScalarAPIReference() {
+  // https://github.com/scalar/scalar/blob/main/documentation/configuration.md
   return (
     <ApiReferenceReact
       configuration={{
-        theme: 'none',
+        isEditable: false,
+        darkMode: true,
+        hideDarkModeToggle: true,
+        searchHotKey: 's',
+        theme: 'bluePlanet',
+        // TODO: Support testing the API reference with a staring server
         spec: {
           url: 'https://raw.githubusercontent.com/pulsate-dev/pulsate/main/resources/schema.json',
         },
