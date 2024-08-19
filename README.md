@@ -1,28 +1,11 @@
 # Pulsate Docs
 
-Website for the Pulsate project. Build with [Nextra](https://nextra.site).
+次世代の分散型ソーシャルネットワーキング "Pulsate" のドキュメント.
 
-This site lives at [docs.pulsate.dev](https://docspulsate.dev).
+Starlight を使って静的サイトを生成しています. ローカルでサイトをテストする際は `pnpm run dev`, ビルドする際は `pnpm run build` を実行してください.
+
+現在このドキュメントは [https://docs.pulsate.dev](https://docs.pulsate.dev) で公開されています.
 
 ## Contributing
 
-### Getting Started
-
-The website is built with [Nextra](https://nextra.site). To get started, clone the repository and run the following commands:
-
-```sh
-pnpm install
-pnpm dev
-```
-
-### Resources
-
-- [Nextra Documentation](https://nextra.site)
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-#### Font: LINE Seed JP
-
-The font used in this project is [LINE Seed JP](https://seed.line.me/). It is licensed under the [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+Pulsate Docs への貢献方法についてのガイドは [CONTRIBUTING.md](./CONTRIBUTING.md) を参照してください.
