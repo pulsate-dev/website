@@ -2,8 +2,8 @@
   "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
   // general
   "files": {
-    "ignore": [".next/**"],
-    "include": ["pages/**", "components/**", "next.config.js"]
+    "ignore": [".astro/**"],
+    "include": ["*.ts", "*.tsx"]
   },
 
   // formatter
@@ -27,7 +27,8 @@
       "bracketSameLine": false,
       "quoteStyle": "single",
       "attributePosition": "auto"
-    }
+    },
+    "globals": ["Astro"]
   },
   "organizeImports": {
     "enabled": true

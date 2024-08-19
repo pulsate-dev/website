@@ -1,36 +1,40 @@
 {
-	"name": "docs",
-	"description": "Documentation for pulsate project",
-	"packageManager": "pnpm@9.7.1",
-	"author": {
-		"name": "pulsate-dev",
-		"email": "info@pulsate.dev"
-	},
-	"scripts": {
-		"dev": "next",
-		"build": "next build",
-		"start": "next start",
-		"lint": "biome check --write .",
-		"check:lint": "biome check .",
-		"format": "biome format --write .",
-		"check:format": "biome format .",
-		"postinstall": "lefthook install"
-	},
-	"dependencies": {
-		"@scalar/api-reference-react": "^0.3.79",
-		"@scalar/nextjs-api-reference": "^0.4.79",
-		"next": "^14.2.5",
-		"nextra": "^2.13.4",
-		"nextra-theme-docs": "^2.13.4",
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.8.3",
-		"@types/node": "22.3.0",
-		"@types/react": "^18.3.3",
-		"@types/react-dom": "^18.3.0",
-		"lefthook": "^1.7.4",
-		"typescript": "^5.5.3"
-	}
+  "name": "docs",
+  "description": "Documentation for pulsate project",
+  "packageManager": "pnpm@9.7.1",
+  "author": {
+    "name": "pulsate-dev",
+    "email": "info@pulsate.dev"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "biome check --write ..",
+    "check:lint": "biome check ..",
+    "format": "biome format --write ..",
+    "check:format": "biome format ..",
+    "postinstall": "lefthook install"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/starlight": "^0.26.1",
+    "@scalar/api-reference-react": "^0.3.80",
+    "astro": "^4.14.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.32.6",
+    "starlight-openapi": "^0.7.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "22.3.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "lefthook": "^1.7.14",
+    "typescript": "^5.5.4"
+  }
 }
