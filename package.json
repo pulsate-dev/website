@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "description": "Documentation for pulsate project",
-  "packageManager": "pnpm@9.8.0",
+  "packageManager": "pnpm@9.9.0",
   "author": {
     "name": "pulsate-dev",
     "email": "info@pulsate.dev"
