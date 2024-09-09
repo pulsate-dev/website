@@ -12,10 +12,10 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "biome check --write ..",
-    "check:lint": "biome check ..",
-    "format": "biome format --write ..",
-    "check:format": "biome format ..",
+    "lint": "biome check --write .",
+    "check:lint": "biome check .",
+    "format": "biome format --write .",
+    "check:format": "biome format .",
     "postinstall": "lefthook install"
   },
   "dependencies": {
