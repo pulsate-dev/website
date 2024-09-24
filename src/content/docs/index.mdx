@@ -22,14 +22,26 @@ hero:
 
 import { Aside, Card, CardGrid } from '@astrojs/starlight/components';
 
+<Aside type="caution">
+  Pulsate は現在、開発段階のプレアルファ版です。ActivityPub など多くの重要機能が未実装または不安定な状態です。正式リリースまでお待ちください。
+</Aside>
+
+<br />
+
 <CardGrid stagger>
+  <Card icon="rocket" title="高いパファーマンス" >
+    Misskey や Mastodon のような他の ActivityPub 実装よりも高速に動作します。
+  </Card>
   <Card icon="heart" title="ユーザー中心の設計" >
     常にユーザー中心の設計を心かけています。UI/UX は非常にシンプルで、分散型SNSを使ったことがない人でも直感的に扱えるようになります。
+  </Card>
+  <Card icon="moon" title="重視されたセキュリティ" >
+    セキュリティに重点を置いた設計で、ユーザーデータの保護と安全性を確保しています。
   </Card>
   <Card icon="puzzle" title="作りたいものを作れるように" >
     開発者向けのサポート及びドキュメントが充実しているので、サードパーティ製クライアントなどが簡単に作れます。
   </Card>
-  <Card icon="rocket" title="Pulsate以外の人とも" >
+  <Card icon="star" title="Pulsate以外の人とも" >
     ActivityPub を実装している他のプラットフォームのサーバーとも繋がれます。別のサーバーにいる友達と繋がるためだけにアカウントを複数持つ必要はありません。
   </Card>
   <Card icon="github" title="いつまでもオープンソース" >
