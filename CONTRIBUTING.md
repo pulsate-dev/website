@@ -1,15 +1,15 @@
-# Contribute Guide: Pulsate Docs
+# Contribute Guide: Pulsate Website
 
-Pulsate Docs (`docs.pulsate.dev`) への貢献方法についてのガイドです。
+Pulsate Website (`pulsate.dev`) への貢献方法についてのガイドです。
 
 > [!NOTE]
 >
-> - このドキュメントは, Pulsate Docs の貢献方法についてのガイドです. Pulsate 本体への貢献については, [Pulsateのリポジトリ](https://github.com/pulsate-dev/pulsate)を参照してください。
+> - このドキュメントは, Pulsate Website の貢献方法についてのガイドです. Pulsate 本体への貢献については, [Pulsateのリポジトリ](https://github.com/pulsate-dev/pulsate)を参照してください。
 > - 全てのコントリビューターとメンテナは [行動規範](https://github.com/pulsate-dev/.github?tab=coc-ov-file) に従う必要があります.
 
 ## Pull Request の提出
 
-Pulsate Docs に対する Pull Request を提出する際は, 以下の注意点に従ってください.
+Pulsate Website に対する Pull Request を提出する際は, 以下の注意点に従ってください.
 
 - 全ての Pull Request は, `main` ブランチに対して提出してください.
 - Pull Request には, その変更に関する説明を含めてください.
@@ -21,7 +21,7 @@ Pulsate のメンテナのレビューと承認を得られれば, マージす�
 
 > [!WARNING]
 >
-> Pulsate Docs で使用しているフォーマッタである Biome は現時点で `.mdx` ファイルのフォーマットをサポートしていません.
+> Pulsate Website で使用しているフォーマッタである Biome は現時点で `.mdx` ファイルのフォーマットをサポートしていません.
 > 大きく形式が崩れていなければ, マージしてもよいと判断しているため, そのまま提出してください.
 
 ### コミットメッセージの提出

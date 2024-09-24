@@ -7,8 +7,8 @@ import starlightOpenAPIPlugin, {openAPISidebarGroups} from "starlight-openapi";
 // https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
-    title: 'Pulsate Docs',
-    description: 'Documentation for Pulsate',
+    title: 'Pulsate',
+    description: 'Website and Documentation for Pulsate',
     lastUpdated: true,
     pagination: false,
     favicon: './src/assets/logo.png',
@@ -31,25 +31,26 @@ export default defineConfig({
     social: {
       discord: 'https://link.pulsate.dev/discord',
       github: 'https://github.com/pulsate-dev/pulsate',
-      twitter: 'https://link.pulsate.dev/x',
-      youtube: 'https://link.pulsate.dev/youtube'
     },
     plugins: [
         starlightOpenAPIPlugin([
           {
             base: 'api-reference',
             label: 'API Reference',
+            // TODO: `main` からタグに切り替える
             schema: 'https://raw.githubusercontent.com/pulsate-dev/pulsate/main/resources/schema.json'
           },
         ]),
     ],
     sidebar: [
       {
-        label: 'リリースノート',
+        label: 'コミュニティ',
         translations: {
-          en: 'Release Note'
+          en: 'Community'
         },
-        link: '/release-note'
+        items: [
+          'community/sponsor',
+        ]
       },
         ...openAPISidebarGroups
     ]
