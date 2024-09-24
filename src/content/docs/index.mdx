@@ -1,17 +1,54 @@
 ---
-title: Pulsate Docs
-description: 次世代の分散型ソーシャルネットワーキング "Pulsate" のドキュメントです。
+title: Pulsate
+head:
+  - tag: title
+content: Easy-to-change, faster, developer friendly next generation decentralized social media.
+description: Easy-to-change, faster, developer friendly next generation decentralized social media.
 template: splash
+editUrl: false
+lastUpdated: false
+hero:
+  title: 繋がりを “再定義” する
+  tagline: Pulsate は 高速で開発者・ユーザーに優しい次世代の分散型SNSです。誰もが気軽に情報を共有しより公平でオープンなデジタル空間を提供します。
+  actions:
+    - text: はじめる
+      icon: right-arrow
+      link: /getting-started/
+    - text: GitHub
+      icon: external
+      variant: minimal
+      link: https://github.com/pulsate-dev/pulsate
 ---
 
-import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+import { Aside, Card, CardGrid } from '@astrojs/starlight/components';
 
-次世代の分散型ソーシャルネットワーキング "Pulsate" のドキュメントへようこそ。
-
-<LinkCard title={"What is Pulsate?"} href={"/what-is-pulsate"} description={"Pulsateを初めて使う人や分散型を初めて知った人はこちら。"} />
-<LinkCard title={"リリースノート"} href={"https://blog.pulsate.dev/archive/release/"} description={"Pulsateのアップデート履歴はこちら。"} />
-<CardGrid>
-  <LinkCard title={"開発ブログ"} href={"https://blog.pulsate.dev"} description={"Pulsateの開発ブログ・最新情報はこちら。"} />
-  <LinkCard title={"プロジェクトへの寄付"} href={"/sponsor"} description={"Pulsate Projectへの寄付に関する情報はこちら。"} />
+<CardGrid stagger>
+  <Card icon="heart" title="ユーザー中心の設計" >
+    常にユーザー中心の設計を心かけています。UI/UX は非常にシンプルで、分散型SNSを使ったことがない人でも直感的に扱えるようになります。
+  </Card>
+  <Card icon="puzzle" title="作りたいものを作れるように" >
+    開発者向けのサポート及びドキュメントが充実しているので、サードパーティ製クライアントなどが簡単に作れます。
+  </Card>
+  <Card icon="rocket" title="Pulsate以外の人とも" >
+    ActivityPub を実装している他のプラットフォームのサーバーとも繋がれます。別のサーバーにいる友達と繋がるためだけにアカウントを複数持つ必要はありません。
+  </Card>
+  <Card icon="github" title="いつまでもオープンソース" >
+    オープンソースの精神に基づき、ソースコードをインターネットに公開しているため誰でも開発に参加することができます。
+  </Card>
 </CardGrid>
 
+<br />
+
+<Aside type="tip" title="寄付のお願い" >
+  Pulsate Project は非営利団体が運営するプロジェクトです。 ソフトウェアの開発資金は全て皆さんの寄付などに頼っています。
+
+  **今度もプロジェクトを続けれるように支援をお願いします。**
+
+  [寄付に関する詳細](/sponsor)
+</Aside>
+
+<br />
+
+<center>
+  [Copyright © 2023-2024 Sho Sakuma & Pulsate Project Team](https://github.com/pulsate-dev/pulsate/blob/main/AUTHORS.md)
+</center>

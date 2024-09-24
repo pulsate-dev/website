@@ -22,14 +22,15 @@ export default defineConfig({
       }
     },
     logo: {
-      src: './src/assets/logo.png'
+      src: './src/assets/logo.png',
+      replacesTitle: true
     },
     editLink: {
       baseUrl: 'https://github.com/pulsate-dev/docs/edit/main/'
     },
     social: {
       discord: 'https://link.pulsate.dev/discord',
-      github: 'https://github.com/withastro/starlight',
+      github: 'https://github.com/pulsate-dev/pulsate',
       twitter: 'https://link.pulsate.dev/x',
       youtube: 'https://link.pulsate.dev/youtube'
     },
