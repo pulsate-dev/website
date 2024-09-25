@@ -12,6 +12,9 @@ export default defineConfig({
     lastUpdated: true,
     pagination: false,
     favicon: './src/assets/logo.png',
+    customCss: [
+      './src/content/styles/global.css',
+    ],
     locales: {
       root: {
         label: '日本語',
@@ -50,6 +53,7 @@ export default defineConfig({
         },
         items: [
           'start-guide/what-is-pulsate',
+          'start-guide/getting-started',
         ]
       },
       {
