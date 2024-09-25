@@ -44,6 +44,15 @@ export default defineConfig({
     ],
     sidebar: [
       {
+        label: 'スタートガイド',
+        translations: {
+          en: 'Start Guide'
+        },
+        items: [
+          'start-guide/what-is-pulsate',
+        ]
+      },
+      {
         label: 'コミュニティ',
         translations: {
           en: 'Community'
