@@ -10,7 +10,7 @@ export default defineConfig({
     title: 'Pulsate',
     description: 'Website and Documentation for Pulsate',
     lastUpdated: true,
-    pagination: false,
+    pagination: true,
     favicon: './src/assets/logo.png',
     customCss: [
       './src/content/styles/global.css',
@@ -52,8 +52,17 @@ export default defineConfig({
           en: 'Start Guide'
         },
         items: [
-          'start-guide/what-is-pulsate',
-          'start-guide/getting-started',
+          'beginner/what-is-pulsate',
+          'beginner/getting-started',
+        ]
+      },
+      {
+        label: 'ユーザーガイド',
+        translations: {
+          en: 'User Guide'
+        },
+        items: [
+          'user/post'
         ]
       },
       {
