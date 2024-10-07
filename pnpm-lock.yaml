@@ -19,7 +19,7 @@ importers:
         version: 0.28.2(astro@4.15.11(@types/node@22.7.4)(rollup@4.24.0)(typescript@5.6.2))
       '@scalar/api-reference-react':
         specifier: ^0.3.80
-        version: 0.3.102(@hyperjump/browser@1.1.6)(postcss@8.4.47)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.6.2)
+        version: 0.3.103(@hyperjump/browser@1.1.6)(postcss@8.4.47)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.6.2)
       astro:
         specifier: ^4.14.2
         version: 4.15.11(@types/node@22.7.4)(rollup@4.24.0)(typescript@5.6.2)
@@ -376,8 +376,8 @@ packages:
       '@codemirror/view': ^6.0.0
       '@lezer/common': ^1.0.0
 
-  '@codemirror/commands@6.6.2':
-    resolution: {integrity: sha512-Fq7eWOl1Rcbrfn6jD8FPCj9Auaxdm5nIK5RYOeW7ughnd/rY5AmPg6b+CfsG39ZHdwiwe8lde3q8uR7CF5S0yQ==}
+  '@codemirror/commands@6.7.0':
+    resolution: {integrity: sha512-+cduIZ2KbesDhbykV02K25A5xIVrquSPz4UxxYBemRlAT2aW8dhwUgLDwej7q/RJUHKk4nALYcR1puecDvbdqw==}
 
   '@codemirror/lang-css@6.3.0':
     resolution: {integrity: sha512-CyR4rUNG9OYcXDZwMPvJdtb6PHbBDKUc/6Na2BIwZ6dKab1JQqKa4di+RNRY9Myn7JB81vayKwJeQ7jEdmNVDA==}
@@ -963,18 +963,18 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/api-client@2.1.12':
-    resolution: {integrity: sha512-lQCufffySuKZ3plgNxxyQE6tJtoZ/vx/BmChDktB6v8xRHMbskRGnKX6a4ndEfW7sZEJoF34KmydOY3uV3P7oQ==}
+  '@scalar/api-client@2.1.13':
+    resolution: {integrity: sha512-Z9zPoZ6rujL8VIInJLHMZFx0/WnnBhQP2wPWrFeAPvvcarHkg68FP1yfYeCfW64pGGfS32oW9tvq20MBQQ6Aew==}
     engines: {node: '>=18'}
 
-  '@scalar/api-reference-react@0.3.102':
-    resolution: {integrity: sha512-dKzPUfstdQnv6bNBFQAa7JjwV3d8KjhkAxPj2+rfJ8FNcqYpmAGoR7n2aB4ahCtgkhAtKk3e2GXivBKlokbhnw==}
+  '@scalar/api-reference-react@0.3.103':
+    resolution: {integrity: sha512-DRjmihmgvkyGPcjCcRPijd1Huc4Yi5/ERLgENfJyYGltQBGI2rBVhNG1cvPQDdUWB06JyRLkRBvfe9lKzU79cw==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18.0.0
 
-  '@scalar/api-reference@1.25.26':
-    resolution: {integrity: sha512-cNUVKbq9BdK7G2eQDx9GMXcrGsRaqOCEA3nrtTv9/zMishOrCGjd/uND2OXpyb4taeKmbZswgqpkBZDMSDkqbw==}
+  '@scalar/api-reference@1.25.27':
+    resolution: {integrity: sha512-HQ1ll/RvgzMEcFJfrOMkbbJ60GpPeHwcooJ+GeSGWv0+iVHTN95q2e7Fmn4hSoQrUkjoFzfQ8V7Sh4VGg2Dbtw==}
     engines: {node: '>=18'}
 
   '@scalar/code-highlight@0.0.11':
@@ -2583,8 +2583,8 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  radix-vue@1.9.6:
-    resolution: {integrity: sha512-legrn9jHbEpbJS4QYrA0VmIafj1bmc4MSVzN55WZatGiXMJg3oFrQL5QxpiURJciS+OlATbKA2KAGkMuuLA0LA==}
+  radix-vue@1.9.7:
+    resolution: {integrity: sha512-1xleWzWNFPfAMmb81gu/4/MV8dXMvc7j2EIjutBpBcKwxdJfeIcQg4k9De18L2rL1/GZg5wA9KykeKTM4MjWow==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -3746,7 +3746,7 @@ snapshots:
       '@codemirror/view': 6.34.1
       '@lezer/common': 1.2.2
 
-  '@codemirror/commands@6.6.2':
+  '@codemirror/commands@6.7.0':
     dependencies:
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
@@ -4333,7 +4333,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.24.0':
     optional: true
 
-  '@scalar/api-client@2.1.12(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.2)':
+  '@scalar/api-client@2.1.13(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.2)':
     dependencies:
       '@headlessui/tailwindcss': 0.2.1(tailwindcss@3.4.10)
       '@headlessui/vue': 1.7.23(vue@3.5.11(typescript@5.6.2))
@@ -4368,9 +4368,9 @@ snapshots:
       - tailwindcss
       - typescript
 
-  '@scalar/api-reference-react@0.3.102(@hyperjump/browser@1.1.6)(postcss@8.4.47)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.6.2)':
+  '@scalar/api-reference-react@0.3.103(@hyperjump/browser@1.1.6)(postcss@8.4.47)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.6.2)':
     dependencies:
-      '@scalar/api-reference': 1.25.26(@hyperjump/browser@1.1.6)(postcss@8.4.47)(tailwindcss@3.4.10)(typescript@5.6.2)
+      '@scalar/api-reference': 1.25.27(@hyperjump/browser@1.1.6)(postcss@8.4.47)(tailwindcss@3.4.10)(typescript@5.6.2)
       react: 18.3.1
     transitivePeerDependencies:
       - '@hyperjump/browser'
@@ -4380,11 +4380,11 @@ snapshots:
       - tailwindcss
       - typescript
 
-  '@scalar/api-reference@1.25.26(@hyperjump/browser@1.1.6)(postcss@8.4.47)(tailwindcss@3.4.10)(typescript@5.6.2)':
+  '@scalar/api-reference@1.25.27(@hyperjump/browser@1.1.6)(postcss@8.4.47)(tailwindcss@3.4.10)(typescript@5.6.2)':
     dependencies:
       '@floating-ui/vue': 1.1.5(vue@3.5.11(typescript@5.6.2))
       '@headlessui/vue': 1.7.23(vue@3.5.11(typescript@5.6.2))
-      '@scalar/api-client': 2.1.12(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.2)
+      '@scalar/api-client': 2.1.13(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.2)
       '@scalar/code-highlight': 0.0.11
       '@scalar/components': 0.12.50(typescript@5.6.2)
       '@scalar/oas-utils': 0.2.51(@hyperjump/browser@1.1.6)(vue@3.5.11(typescript@5.6.2))
@@ -4445,7 +4445,7 @@ snapshots:
       '@vueuse/core': 10.11.1(vue@3.5.11(typescript@5.6.2))
       cva: 1.0.0-beta.1(typescript@5.6.2)
       nanoid: 5.0.7
-      radix-vue: 1.9.6(vue@3.5.11(typescript@5.6.2))
+      radix-vue: 1.9.7(vue@3.5.11(typescript@5.6.2))
       tailwind-merge: 2.5.3
       vue: 3.5.11(typescript@5.6.2)
     transitivePeerDependencies:
@@ -4517,7 +4517,7 @@ snapshots:
   '@scalar/use-codemirror@0.11.16(typescript@5.6.2)':
     dependencies:
       '@codemirror/autocomplete': 6.18.1(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.2)
-      '@codemirror/commands': 6.6.2
+      '@codemirror/commands': 6.7.0
       '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.1)
       '@codemirror/lang-html': 6.4.9
       '@codemirror/lang-json': 6.0.1
@@ -5116,7 +5116,7 @@ snapshots:
   codemirror@6.0.1(@lezer/common@1.2.2):
     dependencies:
       '@codemirror/autocomplete': 6.18.1(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.2)
-      '@codemirror/commands': 6.6.2
+      '@codemirror/commands': 6.7.0
       '@codemirror/language': 6.10.3
       '@codemirror/lint': 6.8.2
       '@codemirror/search': 6.5.6
@@ -6567,7 +6567,7 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  radix-vue@1.9.6(vue@3.5.11(typescript@5.6.2)):
+  radix-vue@1.9.7(vue@3.5.11(typescript@5.6.2)):
     dependencies:
       '@floating-ui/dom': 1.6.11
       '@floating-ui/vue': 1.1.5(vue@3.5.11(typescript@5.6.2))
