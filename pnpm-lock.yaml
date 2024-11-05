@@ -19,7 +19,7 @@ importers:
         version: 0.28.5(astro@4.16.7(@types/node@22.8.6)(rollup@4.24.0)(typescript@5.6.3))
       '@scalar/api-reference-react':
         specifier: ^0.3.80
-        version: 0.3.130(@hyperjump/browser@1.1.6)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.6.3)
+        version: 0.3.132(@hyperjump/browser@1.1.6)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.6.3)
       astro:
         specifier: ^4.14.2
         version: 4.16.7(@types/node@22.8.6)(rollup@4.24.0)(typescript@5.6.3)
@@ -390,8 +390,8 @@ packages:
   '@codemirror/state@6.4.1':
     resolution: {integrity: sha512-QkEyUiLhsJoZkbumGZlswmAhA7CBU02Wrz7zvH4SrcifbsqwlXShVXg65f3v/ts57W3dqyamEriMhij1Z3Zz4A==}
 
-  '@codemirror/view@6.34.1':
-    resolution: {integrity: sha512-t1zK/l9UiRqwUNPm+pdIT0qzJlzuVckbTEMVNFhfWkGiBQClstzg+78vedCvLSX0xJEZ6lwZbPpnljL7L6iwMQ==}
+  '@codemirror/view@6.34.2':
+    resolution: {integrity: sha512-d6n0WFvL970A9Z+l9N2dO+Hk9ev4hDYQzIx+B9tCyBP0W5wPEszi1rhuyFesNSkLZzXbQE5FPH7F/z/TMJfoPA==}
 
   '@ctrl/tinycolor@4.1.0':
     resolution: {integrity: sha512-WyOx8cJQ+FQus4Mm4uPIZA64gbk3Wxh0so5Lcii0aJifqwoVOlfFtorjLE0Hen4OYyHZMXDWqMmaQemBhgxFRQ==}
@@ -944,18 +944,18 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/api-client@2.1.39':
-    resolution: {integrity: sha512-g5pi5RPa8cXzAQ6nWjupPyiJDLA5DEb+DHEKZ6g7QlndOXDfTk82wNLWRJQj8bHQteu8iMabvRWoTuct+M4lhA==}
+  '@scalar/api-client@2.1.41':
+    resolution: {integrity: sha512-sBsP+XeCLZ1AIlwSRYdkkru28vvPJqtpUc/dUG9kImHAMTrA1XPHJ2cHj6pN6aMDE2JwHfWbAW0bnoLgmJo3QA==}
     engines: {node: '>=18'}
 
-  '@scalar/api-reference-react@0.3.130':
-    resolution: {integrity: sha512-ZKSu5GjRm5IpdxpGD3KRV24bxENeLEYmQXbNYer+LxAgbPtznnbgPr6Bb2OnrUAtnOoBtMDY5vtebjj017dsww==}
+  '@scalar/api-reference-react@0.3.132':
+    resolution: {integrity: sha512-MmvXqhUUZgjgGo9lLiwhRw1hGUPIfa/ACNHu10YAiLp/yntjEHSIdKmf3j0e7WPph93xALFIG9bW85UFOYY7gQ==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18.0.0
 
-  '@scalar/api-reference@1.25.54':
-    resolution: {integrity: sha512-HzqR+sBc2zE0R+zApVOhhwLcg3IYhIutDXZz52nDR/NEcmphrlSrS+12lV+QLqcNq337J4/FHpNraNR5IB+8PQ==}
+  '@scalar/api-reference@1.25.56':
+    resolution: {integrity: sha512-L7Tdmb5u6AXT3ccOWbkEwUrLFenXYrPQuijyGVsd0CHzC4zs8+5znVcgEXiuPPGxHRXxmY5/C+P0UBN6LZK2YA==}
     engines: {node: '>=18'}
 
   '@scalar/code-highlight@0.0.14':
@@ -974,12 +974,12 @@ packages:
     resolution: {integrity: sha512-qaz56TaUadWHXhdC5s8BNzjNwGgNxj/PQ+Cq+W6FadyMK6Dgdkk3dN1kKvX+cMx02T6I0GGSFFOjXzB01HNuNg==}
     engines: {node: '>=18'}
 
-  '@scalar/import@0.0.3':
-    resolution: {integrity: sha512-0JTEuY4oF1s5FqMN3+KG3nt5ZTe9E0bVNVe5NdWSQH93KZEZrsy9dCdQQOHaQYS8VJwInoXimCU0OFRPPJ9ReA==}
+  '@scalar/import@0.0.4':
+    resolution: {integrity: sha512-J6/wAvTfrxrp+HvvsMZFjGcgg5gO+qk1FX8X0QpbxRitSRCVVSbYfmDdDBz5mzk5h7XjPxA1PjXad4wjXI290w==}
     engines: {node: '>=18'}
 
-  '@scalar/oas-utils@0.2.65':
-    resolution: {integrity: sha512-8vO/6ri5YrPYw1RKuj0f8lxjJ3J8H/VrJwS7b+Tbvfi0sIekcd6Ls7qEL0I3Z2uRVTeC1sX5V+x9aSu8b+mBbw==}
+  '@scalar/oas-utils@0.2.67':
+    resolution: {integrity: sha512-ydJsPp7RQO8NMXoiCLDikBHS7aeyadS4216kR99RGhOr1v47lmze1AKoSp/j6Eck643AITde4u/Q+wKctevKFQ==}
     engines: {node: '>=18'}
 
   '@scalar/object-utils@1.1.11':
@@ -1141,20 +1141,17 @@ packages:
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  '@unhead/dom@1.11.10':
-    resolution: {integrity: sha512-nL1mdRzYVATZIYauK15zOI2YyM3YxCLfhbTqljEjDFJeiJUzTTi+a//5FHiUk84ewSucFnrwHNey/pEXFlyY1A==}
-
-  '@unhead/schema@1.11.10':
-    resolution: {integrity: sha512-lXh7cm5XtFaw3gc+ZVXTSfIHXiBpAywbjtEiOsz5TR4GxOjj2rtfOAl4C3Difk1yupP6L2otYmOZdn/i8EXSJg==}
+  '@unhead/dom@1.11.11':
+    resolution: {integrity: sha512-4YwziCH5CmjvUzSGdZ4Klj6BqhLSTNZooA9kt47yDxj4Qw9uHqVnXwWWupYsVdIYPNsw1tR2AkHveg82y1Fn3A==}
 
   '@unhead/schema@1.11.11':
     resolution: {integrity: sha512-xSGsWHPBYcMV/ckQeImbrVu6ddeRnrdDCgXUKv3xIjGBY+ob/96V80lGX8FKWh8GwdFSwhblISObKlDAt5K9ZQ==}
 
-  '@unhead/shared@1.11.10':
-    resolution: {integrity: sha512-YQgZcOyo1id7drUeDPGn0R83pirvIcV+Car3/m7ZfCLL1Syab6uXmRckVRd69yVbUL4eirIm9IzzmvzM/OuGuw==}
+  '@unhead/shared@1.11.11':
+    resolution: {integrity: sha512-RfdvUskPn90ipO+PmR98jKZ8Lsx1uuzscOenO5xcrMrtWGhlLWaEBIrbvFOvX5PZ/u8/VNMJChTXGDUjEtHmlg==}
 
-  '@unhead/vue@1.11.10':
-    resolution: {integrity: sha512-v6ddp4YEQCNILhYrx37Yt0GKRIFeTrb3VSmTbjh+URT+ua1mwgmNFTfl2ZldtTtri3tEkwSG1/5wLRq20ma70g==}
+  '@unhead/vue@1.11.11':
+    resolution: {integrity: sha512-AxsHHauZ+w0m2irwDHqkc3GdNChMLBtolk8CN3IAZM6vTwH0EbPXlFCFcIk4WwkH0opG+R2GlKTThr5H0HLm7g==}
     peerDependencies:
       vue: '>=2.7 || >=3'
 
@@ -2954,8 +2951,8 @@ packages:
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
-  unhead@1.11.10:
-    resolution: {integrity: sha512-hypXrAI47wE3wIhkze0RMPGAWcoo45Q1+XzdqLD/OnTCzjFXQrpuE4zBy8JRexyrqp+Ud2+nFTUNf/mjfFSymw==}
+  unhead@1.11.11:
+    resolution: {integrity: sha512-98tM2R8OWJhvS6uqTewkfIrsPqFU/VwnKpU2tVZ+jPXSWgWSLmM3K2Y2v5AEM4bZjmC/XH8pLVGzbqB7xzFI/Q==}
 
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
@@ -3731,23 +3728,23 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.4':
     optional: true
 
-  '@codemirror/autocomplete@6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.3)':
+  '@codemirror/autocomplete@6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)':
     dependencies:
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       '@lezer/common': 1.2.3
 
   '@codemirror/commands@6.7.1':
     dependencies:
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       '@lezer/common': 1.2.3
 
-  '@codemirror/lang-css@6.3.0(@codemirror/view@6.34.1)':
+  '@codemirror/lang-css@6.3.0(@codemirror/view@6.34.2)':
     dependencies:
-      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
       '@lezer/common': 1.2.3
@@ -3757,23 +3754,23 @@ snapshots:
 
   '@codemirror/lang-html@6.4.9':
     dependencies:
-      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.3)
-      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.1)
+      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
+      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.2)
       '@codemirror/lang-javascript': 6.2.2
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       '@lezer/common': 1.2.3
       '@lezer/css': 1.1.9
       '@lezer/html': 1.3.10
 
   '@codemirror/lang-javascript@6.2.2':
     dependencies:
-      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
       '@codemirror/language': 6.10.3
       '@codemirror/lint': 6.8.2
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       '@lezer/common': 1.2.3
       '@lezer/javascript': 1.4.19
 
@@ -3784,16 +3781,16 @@ snapshots:
 
   '@codemirror/lang-xml@6.1.0':
     dependencies:
-      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       '@lezer/common': 1.2.3
       '@lezer/xml': 1.0.5
 
-  '@codemirror/lang-yaml@6.1.1(@codemirror/view@6.34.1)':
+  '@codemirror/lang-yaml@6.1.1(@codemirror/view@6.34.2)':
     dependencies:
-      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
       '@lezer/common': 1.2.3
@@ -3805,7 +3802,7 @@ snapshots:
   '@codemirror/language@6.10.3':
     dependencies:
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       '@lezer/common': 1.2.3
       '@lezer/highlight': 1.2.1
       '@lezer/lr': 1.4.2
@@ -3814,18 +3811,18 @@ snapshots:
   '@codemirror/lint@6.8.2':
     dependencies:
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       crelt: 1.0.6
 
   '@codemirror/search@6.5.7':
     dependencies:
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       crelt: 1.0.6
 
   '@codemirror/state@6.4.1': {}
 
-  '@codemirror/view@6.34.1':
+  '@codemirror/view@6.34.2':
     dependencies:
       '@codemirror/state': 6.4.1
       style-mod: 4.1.2
@@ -4265,11 +4262,11 @@ snapshots:
       call-me-maybe: 1.0.2
       openapi-types: 12.1.3
 
-  '@replit/codemirror-css-color-picker@6.2.0(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)':
+  '@replit/codemirror-css-color-picker@6.2.0(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)':
     dependencies:
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
 
   '@rollup/pluginutils@5.1.3(rollup@4.24.0)':
     dependencies:
@@ -4327,14 +4324,15 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.24.0':
     optional: true
 
-  '@scalar/api-client@2.1.39(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.3)':
+  '@scalar/api-client@2.1.41(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.3)':
     dependencies:
       '@headlessui/tailwindcss': 0.2.1(tailwindcss@3.4.10)
       '@headlessui/vue': 1.7.23(vue@3.5.12(typescript@5.6.3))
       '@scalar/components': 0.12.63(typescript@5.6.3)
       '@scalar/draggable': 0.1.6(typescript@5.6.3)
       '@scalar/icons': 0.1.1(typescript@5.6.3)
-      '@scalar/oas-utils': 0.2.65(@hyperjump/browser@1.1.6)
+      '@scalar/import': 0.0.4
+      '@scalar/oas-utils': 0.2.67(@hyperjump/browser@1.1.6)
       '@scalar/object-utils': 1.1.11
       '@scalar/openapi-parser': 0.8.8
       '@scalar/openapi-types': 0.1.4
@@ -4364,9 +4362,9 @@ snapshots:
       - tailwindcss
       - typescript
 
-  '@scalar/api-reference-react@0.3.130(@hyperjump/browser@1.1.6)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.6.3)':
+  '@scalar/api-reference-react@0.3.132(@hyperjump/browser@1.1.6)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.6.3)':
     dependencies:
-      '@scalar/api-reference': 1.25.54(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.3)
+      '@scalar/api-reference': 1.25.56(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.3)
       react: 18.3.1
     transitivePeerDependencies:
       - '@hyperjump/browser'
@@ -4375,14 +4373,14 @@ snapshots:
       - tailwindcss
       - typescript
 
-  '@scalar/api-reference@1.25.54(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.3)':
+  '@scalar/api-reference@1.25.56(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.3)':
     dependencies:
       '@floating-ui/vue': 1.1.5(vue@3.5.12(typescript@5.6.3))
       '@headlessui/vue': 1.7.23(vue@3.5.12(typescript@5.6.3))
-      '@scalar/api-client': 2.1.39(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.3)
+      '@scalar/api-client': 2.1.41(@hyperjump/browser@1.1.6)(tailwindcss@3.4.10)(typescript@5.6.3)
       '@scalar/code-highlight': 0.0.14
       '@scalar/components': 0.12.63(typescript@5.6.3)
-      '@scalar/oas-utils': 0.2.65(@hyperjump/browser@1.1.6)
+      '@scalar/oas-utils': 0.2.67(@hyperjump/browser@1.1.6)
       '@scalar/object-utils': 1.1.11
       '@scalar/openapi-parser': 0.8.8
       '@scalar/openapi-types': 0.1.4
@@ -4391,7 +4389,7 @@ snapshots:
       '@scalar/types': 0.0.18
       '@scalar/use-toasts': 0.7.7(typescript@5.6.3)
       '@scalar/use-tooltip': 1.0.3(typescript@5.6.3)
-      '@unhead/vue': 1.11.10(vue@3.5.12(typescript@5.6.3))
+      '@unhead/vue': 1.11.11(vue@3.5.12(typescript@5.6.3))
       '@vueuse/core': 10.11.1(vue@3.5.12(typescript@5.6.3))
       fuse.js: 7.0.0
       github-slugger: 2.0.0
@@ -4458,14 +4456,14 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@scalar/import@0.0.3':
+  '@scalar/import@0.0.4':
     dependencies:
       '@scalar/openapi-parser': 0.8.8
+      yaml: 2.6.0
 
-  '@scalar/oas-utils@0.2.65(@hyperjump/browser@1.1.6)':
+  '@scalar/oas-utils@0.2.67(@hyperjump/browser@1.1.6)':
     dependencies:
       '@hyperjump/json-schema': 1.9.8(@hyperjump/browser@1.1.6)
-      '@scalar/import': 0.0.3
       '@scalar/object-utils': 1.1.11
       '@scalar/openapi-types': 0.1.4
       '@scalar/themes': 0.9.45
@@ -4508,27 +4506,27 @@ snapshots:
 
   '@scalar/use-codemirror@0.11.30(typescript@5.6.3)':
     dependencies:
-      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
       '@codemirror/commands': 6.7.1
-      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.1)
+      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.2)
       '@codemirror/lang-html': 6.4.9
       '@codemirror/lang-json': 6.0.1
       '@codemirror/lang-xml': 6.1.0
-      '@codemirror/lang-yaml': 6.1.1(@codemirror/view@6.34.1)
+      '@codemirror/lang-yaml': 6.1.1(@codemirror/view@6.34.2)
       '@codemirror/language': 6.10.3
       '@codemirror/lint': 6.8.2
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       '@lezer/common': 1.2.3
       '@lezer/highlight': 1.2.1
       '@lezer/lr': 1.4.2
-      '@replit/codemirror-css-color-picker': 6.2.0(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)
+      '@replit/codemirror-css-color-picker': 6.2.0(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)
       '@scalar/components': 0.12.63(typescript@5.6.3)
-      '@uiw/codemirror-themes': 4.23.6(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)
+      '@uiw/codemirror-themes': 4.23.6(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)
       codemirror: 6.0.1(@lezer/common@1.2.3)
       vue: 3.5.12(typescript@5.6.3)
     optionalDependencies:
-      y-codemirror.next: 0.3.5(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(yjs@13.6.20)
+      y-codemirror.next: 0.3.5(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(yjs@13.6.20)
       yjs: 13.6.20
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -4697,40 +4695,35 @@ snapshots:
 
   '@types/web-bluetooth@0.0.20': {}
 
-  '@uiw/codemirror-themes@4.23.6(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)':
+  '@uiw/codemirror-themes@4.23.6(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)':
     dependencies:
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@unhead/dom@1.11.10':
+  '@unhead/dom@1.11.11':
     dependencies:
-      '@unhead/schema': 1.11.10
-      '@unhead/shared': 1.11.10
-
-  '@unhead/schema@1.11.10':
-    dependencies:
-      hookable: 5.5.3
-      zhead: 2.2.4
+      '@unhead/schema': 1.11.11
+      '@unhead/shared': 1.11.11
 
   '@unhead/schema@1.11.11':
     dependencies:
       hookable: 5.5.3
       zhead: 2.2.4
 
-  '@unhead/shared@1.11.10':
+  '@unhead/shared@1.11.11':
     dependencies:
-      '@unhead/schema': 1.11.10
+      '@unhead/schema': 1.11.11
 
-  '@unhead/vue@1.11.10(vue@3.5.12(typescript@5.6.3))':
+  '@unhead/vue@1.11.11(vue@3.5.12(typescript@5.6.3))':
     dependencies:
-      '@unhead/schema': 1.11.10
-      '@unhead/shared': 1.11.10
+      '@unhead/schema': 1.11.11
+      '@unhead/shared': 1.11.11
       defu: 6.1.4
       hookable: 5.5.3
-      unhead: 1.11.10
+      unhead: 1.11.11
       vue: 3.5.12(typescript@5.6.3)
 
   '@vitejs/plugin-react@4.3.1(vite@5.4.10(@types/node@22.8.6))':
@@ -5143,13 +5136,13 @@ snapshots:
 
   codemirror@6.0.1(@lezer/common@1.2.3):
     dependencies:
-      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.2(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
       '@codemirror/commands': 6.7.1
       '@codemirror/language': 6.10.3
       '@codemirror/lint': 6.8.2
       '@codemirror/search': 6.5.7
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
     transitivePeerDependencies:
       - '@lezer/common'
 
@@ -7113,11 +7106,11 @@ snapshots:
 
   undici-types@6.19.8: {}
 
-  unhead@1.11.10:
+  unhead@1.11.11:
     dependencies:
-      '@unhead/dom': 1.11.10
-      '@unhead/schema': 1.11.10
-      '@unhead/shared': 1.11.10
+      '@unhead/dom': 1.11.11
+      '@unhead/schema': 1.11.11
+      '@unhead/shared': 1.11.11
       hookable: 5.5.3
 
   unified@11.0.5:
@@ -7394,10 +7387,10 @@ snapshots:
 
   xxhash-wasm@1.0.2: {}
 
-  y-codemirror.next@0.3.5(@codemirror/state@6.4.1)(@codemirror/view@6.34.1)(yjs@13.6.20):
+  y-codemirror.next@0.3.5(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(yjs@13.6.20):
     dependencies:
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.1
+      '@codemirror/view': 6.34.2
       lib0: 0.2.98
       yjs: 13.6.20
     optional: true
