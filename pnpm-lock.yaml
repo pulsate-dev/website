@@ -33,8 +33,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.5
       starlight-openapi:
-        specifier: ^0.9.0
-        version: 0.9.0(@astrojs/markdown-remark@6.0.1)(@astrojs/starlight@0.30.5(astro@4.16.17(@types/node@22.10.5)(rollup@4.28.0)(typescript@5.7.2)))(openapi-types@12.1.3)
+        specifier: ^0.10.0
+        version: 0.10.0(@astrojs/markdown-remark@6.0.1)(@astrojs/starlight@0.30.5(astro@4.16.17(@types/node@22.10.5)(rollup@4.28.0)(typescript@5.7.2)))(openapi-types@12.1.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.8.3
@@ -2948,8 +2948,8 @@ packages:
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
-  starlight-openapi@0.9.0:
-    resolution: {integrity: sha512-YKsYNqYhWu3VF91z4XB1os4ZXwTsgz1LCZggeK/G6RguV4hcaFH18wHYGtO9icqPR+ZbJyrLAdlAjF3CvGBAWA==}
+  starlight-openapi@0.10.0:
+    resolution: {integrity: sha512-VAoBtsf3fiuTSavQoU4td0mc1U3uJtef/f8uR81y6RabVi1W/dtGK8/xAlhGxW6mL6Kgjrhn5CrEYsCGSIwfZQ==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/markdown-remark': '>=6.0.0'
@@ -7257,7 +7257,7 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-openapi@0.9.0(@astrojs/markdown-remark@6.0.1)(@astrojs/starlight@0.30.5(astro@4.16.17(@types/node@22.10.5)(rollup@4.28.0)(typescript@5.7.2)))(openapi-types@12.1.3):
+  starlight-openapi@0.10.0(@astrojs/markdown-remark@6.0.1)(@astrojs/starlight@0.30.5(astro@4.16.17(@types/node@22.10.5)(rollup@4.28.0)(typescript@5.7.2)))(openapi-types@12.1.3):
     dependencies:
       '@astrojs/markdown-remark': 6.0.1
       '@astrojs/starlight': 0.30.5(astro@4.16.17(@types/node@22.10.5)(rollup@4.28.0)(typescript@5.7.2))
