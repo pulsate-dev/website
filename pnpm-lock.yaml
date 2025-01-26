@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(typescript@5.7.3)
       '@astrojs/react':
         specifier: ^4.0.0
-        version: 4.1.6(@types/node@22.10.7)(@types/react-dom@19.0.3(@types/react@19.0.7))(@types/react@19.0.7)(jiti@1.21.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(yaml@2.7.0)
+        version: 4.1.6(@types/node@22.10.7)(@types/react-dom@19.0.3(@types/react@19.0.8))(@types/react@19.0.8)(jiti@1.21.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(yaml@2.7.0)
       '@astrojs/starlight':
         specifier: ^0.30.0
         version: 0.30.6(astro@4.16.17(@types/node@22.10.7)(rollup@4.32.0)(typescript@5.7.3))
@@ -44,10 +44,10 @@ importers:
         version: 22.10.7
       '@types/react':
         specifier: ^19.0.0
-        version: 19.0.7
+        version: 19.0.8
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.0.3(@types/react@19.0.7)
+        version: 19.0.3(@types/react@19.0.8)
       lefthook:
         specifier: ^1.7.14
         version: 1.10.10
@@ -1369,8 +1369,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.0.7':
-    resolution: {integrity: sha512-MoFsEJKkAtZCrC1r6CM8U22GzhG7u2Wir8ons/aCKH6MBdD1ibV24zOSSkdZVUKqN5i396zG5VKLYZ3yaUZdLA==}
+  '@types/react@19.0.8':
+    resolution: {integrity: sha512-9P/o1IGdfmQxrujGbIMDyYaaCykhLKc0NGCtYcECNUr9UAaDe4gwvV9bR6tvd5Br1SG0j+PBpbKr2UYY8CwqSw==}
 
   '@types/sax@1.2.7':
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
@@ -3776,10 +3776,10 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/react@4.1.6(@types/node@22.10.7)(@types/react-dom@19.0.3(@types/react@19.0.7))(@types/react@19.0.7)(jiti@1.21.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(yaml@2.7.0)':
+  '@astrojs/react@4.1.6(@types/node@22.10.7)(@types/react-dom@19.0.3(@types/react@19.0.8))(@types/react@19.0.8)(jiti@1.21.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(yaml@2.7.0)':
     dependencies:
-      '@types/react': 19.0.7
-      '@types/react-dom': 19.0.3(@types/react@19.0.7)
+      '@types/react': 19.0.8
+      '@types/react-dom': 19.0.3(@types/react@19.0.8)
       '@vitejs/plugin-react': 4.3.4(vite@6.0.11(@types/node@22.10.7)(jiti@1.21.7)(yaml@2.7.0))
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -5251,11 +5251,11 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/react-dom@19.0.3(@types/react@19.0.7)':
+  '@types/react-dom@19.0.3(@types/react@19.0.8)':
     dependencies:
-      '@types/react': 19.0.7
+      '@types/react': 19.0.8
 
-  '@types/react@19.0.7':
+  '@types/react@19.0.8':
     dependencies:
       csstype: 3.1.3
 
