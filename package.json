@@ -1,7 +1,7 @@
 {
   "name": "website",
   "description": "Website and Documentation for pulsate project",
-  "packageManager": "pnpm@9.15.5",
+  "packageManager": "pnpm@10.5.2",
   "license": "MIT",
   "author": {
     "name": "pulsate-dev",
@@ -24,7 +24,7 @@
     "@astrojs/react": "^4.0.0",
     "@astrojs/starlight": "^0.30.0",
     "@scalar/api-reference-react": "^0.4.0",
-    "astro": "^4.14.2",
+    "astro": "^5.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sharp": "^0.33.0",
