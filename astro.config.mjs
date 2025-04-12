@@ -31,10 +31,10 @@ export default defineConfig({
     editLink: {
       baseUrl: 'https://github.com/pulsate-dev/docs/edit/main/'
     },
-    social: {
-      discord: 'https://link.pulsate.dev/discord',
-      github: 'https://github.com/pulsate-dev/pulsate',
-    },
+    social: [
+      { icon: 'discord', label: 'Discord', href: 'https://link.pulsate.dev/discord' },
+      { icon: 'github', label: 'GitHub', href: 'https://github.com/pulsate-dev/pulsate' },
+    ],
     plugins: [
         starlightOpenAPIPlugin([
           {
