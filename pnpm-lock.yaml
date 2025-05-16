@@ -13,13 +13,13 @@ importers:
         version: 0.9.4(typescript@5.8.3)
       '@astrojs/react':
         specifier: ^4.0.0
-        version: 4.2.7(@types/node@22.15.17)(@types/react-dom@19.1.4(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)
+        version: 4.2.7(@types/node@22.15.17)(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)
       '@astrojs/starlight':
         specifier: ^0.34.0
         version: 0.34.3(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
       '@scalar/api-reference-react':
         specifier: ^0.6.0
-        version: 0.6.30(react@19.1.0)(tailwindcss@4.0.17)(typescript@5.8.3)
+        version: 0.6.31(react@19.1.0)(tailwindcss@4.0.17)(typescript@5.8.3)
       astro:
         specifier: ^5.0.0
         version: 5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
@@ -47,10 +47,10 @@ importers:
         version: 19.1.4
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.1.4(@types/react@19.1.4)
+        version: 19.1.5(@types/react@19.1.4)
       lefthook:
         specifier: ^1.7.14
-        version: 1.11.12
+        version: 1.11.13
       typescript:
         specifier: ^5.5.4
         version: 5.8.3
@@ -1019,42 +1019,42 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/api-client@2.3.33':
-    resolution: {integrity: sha512-kkdBdXkWmclB+CNpNquoVPjVmyKTStbNMi6K/XS55aA5sg0cHJmkpuwCPUI+N3rjt1kB453BvyI81+ji7kHjcw==}
+  '@scalar/api-client@2.3.34':
+    resolution: {integrity: sha512-TwhtLNr/1AlbsOe52imeriggpYcLQX12rVR953LAN5GX4B1cwvnOuA/2kX6EhpxWYM6tbgQaojmIZAB3mMaxXA==}
     engines: {node: '>=18'}
 
-  '@scalar/api-reference-react@0.6.30':
-    resolution: {integrity: sha512-RqH2uJ8VUhZ5Pykyp3VuTLUVUNhCtQ0tvlnJ7wHfQUZ7o85fHIZIyhTSq/5KwYNzAvs3Y5ToTkMsIxZhn+DS8Q==}
+  '@scalar/api-reference-react@0.6.31':
+    resolution: {integrity: sha512-fjCfSdCgTG3XYvRdCViwmcWqfcv1sYhjCNu9zZwq0Fw/hjRcFnJCjxFhwfN6kJT1lRl2jRgC72zKeDaUqmO3oA==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
 
-  '@scalar/api-reference@1.28.33':
-    resolution: {integrity: sha512-50BNZARDh+fNaUZT4Wm3LNb3/kVUJtpdGEiQ1vulrDKY4F/BWvFFfIUeXBy9Zfee8RyNxtukFO2cllbqzQJzHw==}
+  '@scalar/api-reference@1.28.34':
+    resolution: {integrity: sha512-PRCnjbnZl0ToYbLsPzk7r/yrBZTPBda/zG2Pgws0BG+JllqX1/1qoUWuNyW18ZlLCP8mOl8Tq6nn3me7w6buzQ==}
     engines: {node: '>=18'}
 
   '@scalar/code-highlight@0.0.29':
     resolution: {integrity: sha512-GKOd8oQZNMVDGgq92u4ICqaJlQ+ClGzKjVonGVjO8bhCIN0zUneStWN7kfA8ik+8Ry6h3Keqs3+Z0I1DEoJGqg==}
     engines: {node: '>=18'}
 
-  '@scalar/components@0.13.58':
-    resolution: {integrity: sha512-uuL9FV3pc2mEW3+3/XTv3AcnpPvaXzYxIFcgUsTtWyoJ+S4/ismeJYrOCTzRxPrfIpjA0U1rhCaLW4t973rcMA==}
+  '@scalar/components@0.13.59':
+    resolution: {integrity: sha512-Um2cYyNZoA+wCs196d4vnbf3s+xMt9JtH8l7z1fqogxQ8vE4FiZNN1SYpNLjJ8d8V29qsYWm60dDpCA6t+GsBQ==}
     engines: {node: '>=18'}
 
   '@scalar/draggable@0.1.11':
     resolution: {integrity: sha512-EQW9N1+mDORhsbjdtCI3XDvmUKsuKw1uf6r3kT1Mm2zQKT+rWwA0ChsAkEN6OG62C0YumMuXpH71h1seAWptxw==}
     engines: {node: '>=18'}
 
-  '@scalar/icons@0.3.6':
-    resolution: {integrity: sha512-Er3zt/0+i8rbS0mPTe/N39uBC7stISE9DSZPIdgDl4onG9eFb4sodCyInA7mAxF7NQftHXGuK6VKjry9iAP0OA==}
+  '@scalar/icons@0.3.7':
+    resolution: {integrity: sha512-S0e8EQyc4MYW5MUGVMehUPgDrgDX8nGUQ/KTv9WVxZDbDOxXID0NVtkPMa+jQ2ep0obzJmjRqh8NTlnGIEGYiA==}
     engines: {node: '>=18'}
 
-  '@scalar/import@0.3.26':
-    resolution: {integrity: sha512-UIOPduLhpJCHmQ8bCzlY/btnJ0qWOLVMRX0ZtVVd2gEC4qyKnaiWB1fHweQW5rrWtO7CK90X8Z28n5wY5f365w==}
+  '@scalar/import@0.3.27':
+    resolution: {integrity: sha512-E8WLCwo0oLUfC22HEK9HPpJqtOb1cotsghIDZ08jG+ZzirogLSeIU9wl4cfIiHShxFZGQqql1bp1hi0FBrCA8w==}
     engines: {node: '>=18'}
 
-  '@scalar/oas-utils@0.2.143':
-    resolution: {integrity: sha512-6waFLR2Nhz/+YUXAHmiupi1r32jHsdIXpEszqjzbGuKjyEmYJwR5rT638Il1CfHVrfIZnmMy60EAw/jmzQtm2A==}
+  '@scalar/oas-utils@0.2.144':
+    resolution: {integrity: sha512-7U2cHC2zuSwRPecluD5aO3j2FL60aF1DjKXBuFjsVL690QQo2oFxImYBjNm4qvWrVrWV9HpZZNUmZ8AdB0MdNw==}
     engines: {node: '>=18'}
 
   '@scalar/object-utils@1.1.14':
@@ -1069,28 +1069,28 @@ packages:
     resolution: {integrity: sha512-O1GwqLpcRc3GKXTbeBZ5E12fXR2ltpqGWk4RfhoN4ebKZsPVknV5at5425G97E1SwMy12BporRvn90k1Z+MruQ==}
     engines: {node: '>=18'}
 
-  '@scalar/postman-to-openapi@0.2.16':
-    resolution: {integrity: sha512-gcC8VRwltFn+BrvSXi3nguzcu62c5KIOHgogOUVRpeNF2taYL16MJl4s8kkB9V4C3f4lZqozYml8MJJe/1K5pw==}
+  '@scalar/postman-to-openapi@0.2.17':
+    resolution: {integrity: sha512-Pjlsle4I6A7UjgY40teLHDef51mv4xQbCj6sHCmiox1/+1bmPfh8ieG2GpeDBzsBbKGiu3gnTseC+r2/UYRtrg==}
     engines: {node: '>=18'}
 
   '@scalar/snippetz@0.2.20':
     resolution: {integrity: sha512-MX55ePxHuS8xiunYmmgCRPsAjwWXkP0+2Y1y07Nzx8K3iRvMAfDD7YhpGsaqKp4Tlz0DKYGYuGtOj8+g63FObA==}
     engines: {node: '>=18'}
 
-  '@scalar/themes@0.11.2':
-    resolution: {integrity: sha512-3LOKmOzWzpWZHBqqVP62MDLa9QLmsjvb1DpAevMrMc6mSkSSnKU53+BxOZcrBb8CgB1694Lm9eOf4BRBywufaw==}
+  '@scalar/themes@0.11.3':
+    resolution: {integrity: sha512-47+eQ/X4SSfxEoxSYicmRA2KAJpxY5s4eAV8m6hnhSNc9k8MuYUuI68jI5H8JOf0O6axQUdgyNfMTMsG7m6sEg==}
     engines: {node: '>=18'}
 
-  '@scalar/types@0.1.15':
-    resolution: {integrity: sha512-qb/kYWD7MKthL9flHEH/FPDgE3uWkkq8os9+M3CwyYMo2OpyXLbnzZ47LiCJ+hfdCx/hfIiSEOum2eNsYM8Lfg==}
+  '@scalar/types@0.1.16':
+    resolution: {integrity: sha512-v1L96F8Inn27NUw5Xcl0iifw3SOX0R9WBV6GeswR23s8i1SJz7UiLEi8rLOqOB5DiLtC8hDK0kNl4TKn7MNJWQ==}
     engines: {node: '>=18'}
 
-  '@scalar/use-codemirror@0.11.103':
-    resolution: {integrity: sha512-rwa2dn2L6R/Q2vdYp4kNx5kV1zZ7TIhoxXoYREqVOlbqypl7ASAyNot2icuAIozSzA4oyL7mhsSsYtaBhJ3C1A==}
+  '@scalar/use-codemirror@0.11.104':
+    resolution: {integrity: sha512-BDIi9+IidKcjmcO0DW5Cz44g3+1Bw3FnqdClsSmlxEf/9ClDKixe1yjgBf1u970YsOcvfMBGhRdF3Up//QpzgA==}
     engines: {node: '>=18'}
 
-  '@scalar/use-hooks@0.1.49':
-    resolution: {integrity: sha512-RV/ks0xBdj2e5MUmdto0dJIL3zviixfmaY87fzVkJwU/ptzi50AyppXGFWsmRyatOwB/KYlUy6D2NoNQA8bdDQ==}
+  '@scalar/use-hooks@0.1.50':
+    resolution: {integrity: sha512-/9FDyuU62Gg/a2Qsa7cRYNhdkON0FzRWRD9f4W0t+9Tm9/HNvGdm6yKaSh43S0kR0ia2AAgZEVg646H+Fqam4Q==}
     engines: {node: '>=18'}
 
   '@scalar/use-toasts@0.7.10':
@@ -1187,8 +1187,8 @@ packages:
   '@types/node@22.15.17':
     resolution: {integrity: sha512-wIX2aSZL5FE+MR0JlvF87BNVrtFWf6AE6rxSE9X7OwnVvoyCQjpzSRJ+M87se/4QCkCiebQAqrJ0y6fwIyi7nw==}
 
-  '@types/react-dom@19.1.4':
-    resolution: {integrity: sha512-WxYAszDYgsMV31OVyoG4jbAgJI1Gw0Xq9V19zwhy6+hUUJlJIdZ3r/cbdmTqFv++SktQkZ/X+46yGFxp5XJBEg==}
+  '@types/react-dom@19.1.5':
+    resolution: {integrity: sha512-CMCjrWucUBZvohgZxkjd6S9h0nZxXjzus6yDfUb+xLxYM7VvjKNH1tQrE9GWLql1XoOP4/Ds3bwFqShHUYraGg==}
     peerDependencies:
       '@types/react': ^19.0.0
 
@@ -2022,58 +2022,58 @@ packages:
     resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
     engines: {node: '>= 8'}
 
-  lefthook-darwin-arm64@1.11.12:
-    resolution: {integrity: sha512-nB3rZVGoign6lhlbdfT1/knk4fV4Kx7kgbho8oSFcpw/o2qRQpLqmclCWUTtf+Pyj4vCzE7hiee/m+uQtvu19w==}
+  lefthook-darwin-arm64@1.11.13:
+    resolution: {integrity: sha512-gHwHofXupCtzNLN+8esdWfFTnAEkmBxE/WKA0EwxPPJXdZYa1GUsiG5ipq/CdG/0j8ekYyM9Hzyrrk5BqJ42xw==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@1.11.12:
-    resolution: {integrity: sha512-ExNz8ctFRRaVz2wpvjmOtV4GeZcRdsAZwnZbmvlu1fMcJ6WtjAuR6fB0ybtcsc03/zBNrfShiq+VtZLkGv8Oeg==}
+  lefthook-darwin-x64@1.11.13:
+    resolution: {integrity: sha512-zYxkWNUirmTidhskY9J9AwxvdMi3YKH+TqZ3AQ1EOqkOwPBWJQW5PbnzsXDrd3YnrtZScYm/tE/moXJpEPPIpQ==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-freebsd-arm64@1.11.12:
-    resolution: {integrity: sha512-3Si6YJ8YLEMJ6TGsaBI2ni64XSrJX69N4gX7OKQp85IXeizPUEy7oorYAJCUaw5nMffRbIkzxNTjaMkcn4iwag==}
+  lefthook-freebsd-arm64@1.11.13:
+    resolution: {integrity: sha512-gJzWnllcMcivusmPorEkXPpEciKotlBHn7QxWwYaSjss/U3YdZu+NTjDO30b3qeiVlyq4RAZ4BPKJODXxHHwUA==}
     cpu: [arm64]
     os: [freebsd]
 
-  lefthook-freebsd-x64@1.11.12:
-    resolution: {integrity: sha512-J18MNYZKkVdHJ5K54MT8kxJ/W4TBUxD8aCi4e+Oliw8UXAiwaJSTGPkdY5P8aUlVYDknN2w+6I99Dxre6CJRFw==}
+  lefthook-freebsd-x64@1.11.13:
+    resolution: {integrity: sha512-689XdchgtDvZQWFFx1szUvm/mqrq/v6laki0odq5FAfcSgUeLu3w+z6UicBS5l55eFJuQTDNKARFqrKJ04e+Vw==}
     cpu: [x64]
     os: [freebsd]
 
-  lefthook-linux-arm64@1.11.12:
-    resolution: {integrity: sha512-oIWcj7mcHnFB4tcfz4dsZTnDTXIyF7cjCEqhDQTvqJQLbE1XRfjU0RzQdgSKrzdmXIcUFB+lmcgeRwJnKBEJ8Q==}
+  lefthook-linux-arm64@1.11.13:
+    resolution: {integrity: sha512-ujCLbaZg5S/Ao8KZAcNSb+Y3gl898ZEM0YKyiZmZo22dFFpm/5gcV46pF3xaqIw5IpH+3YYDTKDU+qTetmARyQ==}
     cpu: [arm64]
     os: [linux]
 
-  lefthook-linux-x64@1.11.12:
-    resolution: {integrity: sha512-sr9X5dW5dl9Fa3Kdk3x66DPGgCz/rykm+JHIyQGfnuvZnaeqkEaXgNubBaVGBbOimagXgtA5DwXc6D6fzUYALA==}
+  lefthook-linux-x64@1.11.13:
+    resolution: {integrity: sha512-O5WdodeBtFOXQlvPcckqp4W/yqVM9DbVQBkvOxwSJlmsxO4sGYK1TqdxH9ihLB85B2kPPssZj9ze36/oizzhVQ==}
     cpu: [x64]
     os: [linux]
 
-  lefthook-openbsd-arm64@1.11.12:
-    resolution: {integrity: sha512-4TuX8c/lwky1DSNIY6knIFlMIHQZrVBxh6O5vSTjOAjKv5YmIkNgeUlwcBD+SMru9tQBj7MvOpJSkVkaLK5hhQ==}
+  lefthook-openbsd-arm64@1.11.13:
+    resolution: {integrity: sha512-SyBpciUfvY/lUDbZu7L6MtL/SVG2+yMTckBgb4PdJQhJlisY0IsyOYdlTw2icPPrY7JnwdsFv8UW0EJOB76W4g==}
     cpu: [arm64]
     os: [openbsd]
 
-  lefthook-openbsd-x64@1.11.12:
-    resolution: {integrity: sha512-Y/rPvyXtsIH+pxACfLHwxqc2Ahk+aExj8Izce3zXp75Wki5DH+6TXm5tWj5CgIuefL7CMqNFsOZCjEe1+SyM+w==}
+  lefthook-openbsd-x64@1.11.13:
+    resolution: {integrity: sha512-6+/0j6O2dzo9cjTWUKfL2J6hRR7Krna/ssqnW8cWh8QHZKO9WJn34epto9qgjeHwSysou8byI7Mwv5zOGthLCQ==}
     cpu: [x64]
     os: [openbsd]
 
-  lefthook-windows-arm64@1.11.12:
-    resolution: {integrity: sha512-OJaElGktzsMrkmIpXBqwlc+eZx5kwxx+tJFByTXiW/rb8ttBwj0ueVyfo3lw/PqqlbMy73qc9Uj3CHYkaKsDKw==}
+  lefthook-windows-arm64@1.11.13:
+    resolution: {integrity: sha512-w5TwZ8bsZ17uOMtYGc5oEb4tCHjNTSeSXRy6H9Yic8E7IsPZtZLkaZGnIIwgXFuhhrcCdc6FuTvKt2tyV7EW2g==}
     cpu: [arm64]
     os: [win32]
 
-  lefthook-windows-x64@1.11.12:
-    resolution: {integrity: sha512-ZhKsisibIcaG+rv9i7UJUgnuejI6mfaS5T3FreqsWt5vAsEIvLLNmZUA15MHPr99n+L4La1YQ2jTqie1kH57dA==}
+  lefthook-windows-x64@1.11.13:
+    resolution: {integrity: sha512-7lvwnIs8CNOXKU4y3i1Pbqna+QegIORkSD2VCuHBNpIJ8H84NpjoG3tKU91IM/aI1a2eUvCk+dw+1rfMRz7Ytg==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@1.11.12:
-    resolution: {integrity: sha512-refh8mlcNtwJfmHDH+2mN1KTIVjp1EHlrjzOjfH/hJ4vFQByH2+1KfFDlJLX9V16VESwUNyOGkEZ9cJEF6zNgg==}
+  lefthook@1.11.13:
+    resolution: {integrity: sha512-SDTk3D4nW1XRpR9u9fdYQ/qj1xeZVIwZmIFdJUnyq+w9ZLdCCvIrOmtD8SFiJowSevISjQDC+f9nqyFXUxc0SQ==}
     hasBin: true
 
   leven@3.1.0:
@@ -3285,10 +3285,10 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/react@4.2.7(@types/node@22.15.17)(@types/react-dom@19.1.4(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)':
+  '@astrojs/react@4.2.7(@types/node@22.15.17)(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)':
     dependencies:
       '@types/react': 19.1.4
-      '@types/react-dom': 19.1.4(@types/react@19.1.4)
+      '@types/react-dom': 19.1.5(@types/react@19.1.4)
       '@vitejs/plugin-react': 4.4.1(vite@6.3.4(@types/node@22.15.17)(yaml@2.8.0))
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
@@ -4218,24 +4218,24 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.40.1':
     optional: true
 
-  '@scalar/api-client@2.3.33(tailwindcss@4.0.17)(typescript@5.8.3)':
+  '@scalar/api-client@2.3.34(tailwindcss@4.0.17)(typescript@5.8.3)':
     dependencies:
       '@headlessui/tailwindcss': 0.2.2(tailwindcss@4.0.17)
       '@headlessui/vue': 1.7.23(vue@3.5.14(typescript@5.8.3))
-      '@scalar/components': 0.13.58(typescript@5.8.3)
+      '@scalar/components': 0.13.59(typescript@5.8.3)
       '@scalar/draggable': 0.1.11(typescript@5.8.3)
-      '@scalar/icons': 0.3.6(typescript@5.8.3)
-      '@scalar/import': 0.3.26
-      '@scalar/oas-utils': 0.2.143
+      '@scalar/icons': 0.3.7(typescript@5.8.3)
+      '@scalar/import': 0.3.27
+      '@scalar/oas-utils': 0.2.144
       '@scalar/object-utils': 1.1.14
       '@scalar/openapi-parser': 0.10.17
       '@scalar/openapi-types': 0.2.3
-      '@scalar/postman-to-openapi': 0.2.16
+      '@scalar/postman-to-openapi': 0.2.17
       '@scalar/snippetz': 0.2.20
-      '@scalar/themes': 0.11.2
-      '@scalar/types': 0.1.15
-      '@scalar/use-codemirror': 0.11.103(typescript@5.8.3)
-      '@scalar/use-hooks': 0.1.49(typescript@5.8.3)
+      '@scalar/themes': 0.11.3
+      '@scalar/types': 0.1.16
+      '@scalar/use-codemirror': 0.11.104(typescript@5.8.3)
+      '@scalar/use-hooks': 0.1.50(typescript@5.8.3)
       '@scalar/use-toasts': 0.7.10(typescript@5.8.3)
       '@scalar/use-tooltip': 1.0.7(typescript@5.8.3)
       '@vueuse/core': 10.11.1(vue@3.5.14(typescript@5.8.3))
@@ -4269,10 +4269,10 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@scalar/api-reference-react@0.6.30(react@19.1.0)(tailwindcss@4.0.17)(typescript@5.8.3)':
+  '@scalar/api-reference-react@0.6.31(react@19.1.0)(tailwindcss@4.0.17)(typescript@5.8.3)':
     dependencies:
-      '@scalar/api-reference': 1.28.33(tailwindcss@4.0.17)(typescript@5.8.3)
-      '@scalar/types': 0.1.15
+      '@scalar/api-reference': 1.28.34(tailwindcss@4.0.17)(typescript@5.8.3)
+      '@scalar/types': 0.1.16
       react: 19.1.0
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -4290,21 +4290,21 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@scalar/api-reference@1.28.33(tailwindcss@4.0.17)(typescript@5.8.3)':
+  '@scalar/api-reference@1.28.34(tailwindcss@4.0.17)(typescript@5.8.3)':
     dependencies:
       '@floating-ui/vue': 1.1.6(vue@3.5.14(typescript@5.8.3))
       '@headlessui/vue': 1.7.23(vue@3.5.14(typescript@5.8.3))
-      '@scalar/api-client': 2.3.33(tailwindcss@4.0.17)(typescript@5.8.3)
+      '@scalar/api-client': 2.3.34(tailwindcss@4.0.17)(typescript@5.8.3)
       '@scalar/code-highlight': 0.0.29
-      '@scalar/components': 0.13.58(typescript@5.8.3)
-      '@scalar/icons': 0.3.6(typescript@5.8.3)
-      '@scalar/oas-utils': 0.2.143
+      '@scalar/components': 0.13.59(typescript@5.8.3)
+      '@scalar/icons': 0.3.7(typescript@5.8.3)
+      '@scalar/oas-utils': 0.2.144
       '@scalar/openapi-parser': 0.10.17
       '@scalar/openapi-types': 0.2.3
       '@scalar/snippetz': 0.2.20
-      '@scalar/themes': 0.11.2
-      '@scalar/types': 0.1.15
-      '@scalar/use-hooks': 0.1.49(typescript@5.8.3)
+      '@scalar/themes': 0.11.3
+      '@scalar/types': 0.1.16
+      '@scalar/use-hooks': 0.1.50(typescript@5.8.3)
       '@scalar/use-toasts': 0.7.10(typescript@5.8.3)
       '@unhead/vue': 1.11.20(vue@3.5.14(typescript@5.8.3))
       '@vueuse/core': 10.11.1(vue@3.5.14(typescript@5.8.3))
@@ -4353,15 +4353,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@scalar/components@0.13.58(typescript@5.8.3)':
+  '@scalar/components@0.13.59(typescript@5.8.3)':
     dependencies:
       '@floating-ui/utils': 0.2.9
       '@floating-ui/vue': 1.1.6(vue@3.5.14(typescript@5.8.3))
       '@headlessui/vue': 1.7.23(vue@3.5.14(typescript@5.8.3))
       '@scalar/code-highlight': 0.0.29
-      '@scalar/icons': 0.3.6(typescript@5.8.3)
-      '@scalar/themes': 0.11.2
-      '@scalar/use-hooks': 0.1.49(typescript@5.8.3)
+      '@scalar/icons': 0.3.7(typescript@5.8.3)
+      '@scalar/themes': 0.11.3
+      '@scalar/use-hooks': 0.1.50(typescript@5.8.3)
       '@scalar/use-toasts': 0.7.10(typescript@5.8.3)
       '@vueuse/core': 10.11.1(vue@3.5.14(typescript@5.8.3))
       cva: 1.0.0-beta.2(typescript@5.8.3)
@@ -4380,10 +4380,10 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@scalar/icons@0.3.6(typescript@5.8.3)':
+  '@scalar/icons@0.3.7(typescript@5.8.3)':
     dependencies:
       '@phosphor-icons/core': 2.1.1
-      '@scalar/use-hooks': 0.1.49(typescript@5.8.3)
+      '@scalar/use-hooks': 0.1.50(typescript@5.8.3)
       '@types/node': 20.17.47
       chalk: 5.4.1
       vue: 3.5.14(typescript@5.8.3)
@@ -4391,20 +4391,20 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  '@scalar/import@0.3.26':
+  '@scalar/import@0.3.27':
     dependencies:
-      '@scalar/oas-utils': 0.2.143
+      '@scalar/oas-utils': 0.2.144
       '@scalar/openapi-parser': 0.10.17
       yaml: 2.8.0
 
-  '@scalar/oas-utils@0.2.143':
+  '@scalar/oas-utils@0.2.144':
     dependencies:
       '@hyperjump/browser': 1.3.0
       '@hyperjump/json-schema': 1.14.1(@hyperjump/browser@1.3.0)
       '@scalar/object-utils': 1.1.14
       '@scalar/openapi-types': 0.2.3
-      '@scalar/themes': 0.11.2
-      '@scalar/types': 0.1.15
+      '@scalar/themes': 0.11.3
+      '@scalar/types': 0.1.16
       flatted: 3.3.3
       microdiff: 1.5.0
       nanoid: 5.1.5
@@ -4432,27 +4432,27 @@ snapshots:
     dependencies:
       zod: 3.24.1
 
-  '@scalar/postman-to-openapi@0.2.16':
+  '@scalar/postman-to-openapi@0.2.17':
     dependencies:
-      '@scalar/oas-utils': 0.2.143
+      '@scalar/oas-utils': 0.2.144
       '@scalar/openapi-types': 0.2.3
 
   '@scalar/snippetz@0.2.20':
     dependencies:
       stringify-object: 5.0.0
 
-  '@scalar/themes@0.11.2':
+  '@scalar/themes@0.11.3':
     dependencies:
-      '@scalar/types': 0.1.15
+      '@scalar/types': 0.1.16
       nanoid: 5.1.5
 
-  '@scalar/types@0.1.15':
+  '@scalar/types@0.1.16':
     dependencies:
       '@scalar/openapi-types': 0.2.3
       nanoid: 5.1.5
       zod: 3.24.1
 
-  '@scalar/use-codemirror@0.11.103(typescript@5.8.3)':
+  '@scalar/use-codemirror@0.11.104(typescript@5.8.3)':
     dependencies:
       '@codemirror/autocomplete': 6.18.6
       '@codemirror/commands': 6.8.1
@@ -4469,7 +4469,7 @@ snapshots:
       '@lezer/highlight': 1.2.1
       '@lezer/lr': 1.4.2
       '@replit/codemirror-css-color-picker': 6.3.0(@codemirror/language@6.11.0)(@codemirror/state@6.5.2)(@codemirror/view@6.36.8)
-      '@scalar/components': 0.13.58(typescript@5.8.3)
+      '@scalar/components': 0.13.59(typescript@5.8.3)
       codemirror: 6.0.1
       style-mod: 4.1.2
       vue: 3.5.14(typescript@5.8.3)
@@ -4478,9 +4478,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@scalar/use-hooks@0.1.49(typescript@5.8.3)':
+  '@scalar/use-hooks@0.1.50(typescript@5.8.3)':
     dependencies:
-      '@scalar/themes': 0.11.2
+      '@scalar/themes': 0.11.3
       '@scalar/use-toasts': 0.7.10(typescript@5.8.3)
       '@vueuse/core': 10.11.1(vue@3.5.14(typescript@5.8.3))
       cva: 1.0.0-beta.2(typescript@5.8.3)
@@ -4615,7 +4615,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/react-dom@19.1.4(@types/react@19.1.4)':
+  '@types/react-dom@19.1.5(@types/react@19.1.4)':
     dependencies:
       '@types/react': 19.1.4
 
@@ -5656,48 +5656,48 @@ snapshots:
 
   klona@2.0.6: {}
 
-  lefthook-darwin-arm64@1.11.12:
+  lefthook-darwin-arm64@1.11.13:
     optional: true
 
-  lefthook-darwin-x64@1.11.12:
+  lefthook-darwin-x64@1.11.13:
     optional: true
 
-  lefthook-freebsd-arm64@1.11.12:
+  lefthook-freebsd-arm64@1.11.13:
     optional: true
 
-  lefthook-freebsd-x64@1.11.12:
+  lefthook-freebsd-x64@1.11.13:
     optional: true
 
-  lefthook-linux-arm64@1.11.12:
+  lefthook-linux-arm64@1.11.13:
     optional: true
 
-  lefthook-linux-x64@1.11.12:
+  lefthook-linux-x64@1.11.13:
     optional: true
 
-  lefthook-openbsd-arm64@1.11.12:
+  lefthook-openbsd-arm64@1.11.13:
     optional: true
 
-  lefthook-openbsd-x64@1.11.12:
+  lefthook-openbsd-x64@1.11.13:
     optional: true
 
-  lefthook-windows-arm64@1.11.12:
+  lefthook-windows-arm64@1.11.13:
     optional: true
 
-  lefthook-windows-x64@1.11.12:
+  lefthook-windows-x64@1.11.13:
     optional: true
 
-  lefthook@1.11.12:
+  lefthook@1.11.13:
     optionalDependencies:
-      lefthook-darwin-arm64: 1.11.12
-      lefthook-darwin-x64: 1.11.12
-      lefthook-freebsd-arm64: 1.11.12
-      lefthook-freebsd-x64: 1.11.12
-      lefthook-linux-arm64: 1.11.12
-      lefthook-linux-x64: 1.11.12
-      lefthook-openbsd-arm64: 1.11.12
-      lefthook-openbsd-x64: 1.11.12
-      lefthook-windows-arm64: 1.11.12
-      lefthook-windows-x64: 1.11.12
+      lefthook-darwin-arm64: 1.11.13
+      lefthook-darwin-x64: 1.11.13
+      lefthook-freebsd-arm64: 1.11.13
+      lefthook-freebsd-x64: 1.11.13
+      lefthook-linux-arm64: 1.11.13
+      lefthook-linux-x64: 1.11.13
+      lefthook-openbsd-arm64: 1.11.13
+      lefthook-openbsd-x64: 1.11.13
+      lefthook-windows-arm64: 1.11.13
+      lefthook-windows-x64: 1.11.13
 
   leven@3.1.0: {}
 
