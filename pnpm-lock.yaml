@@ -13,16 +13,16 @@ importers:
         version: 0.9.4(typescript@5.8.3)
       '@astrojs/react':
         specifier: ^4.0.0
-        version: 4.2.7(@types/node@22.15.17)(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)
+        version: 4.2.7(@types/node@22.15.18)(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)
       '@astrojs/starlight':
         specifier: ^0.34.0
-        version: 0.34.3(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
+        version: 0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
       '@scalar/api-reference-react':
         specifier: ^0.6.0
         version: 0.6.31(react@19.1.0)(tailwindcss@4.0.17)(typescript@5.8.3)
       astro:
         specifier: ^5.0.0
-        version: 5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
+        version: 5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
       react:
         specifier: ^19.0.0
         version: 19.1.0
@@ -34,14 +34,14 @@ importers:
         version: 0.34.1
       starlight-openapi:
         specifier: ^0.16.0
-        version: 0.16.1(@astrojs/markdown-remark@6.3.1)(@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)))(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))(openapi-types@12.1.3)
+        version: 0.16.1(@astrojs/markdown-remark@6.3.1)(@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)))(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))(openapi-types@12.1.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.8.3
         version: 1.9.4
       '@types/node':
-        specifier: 22.15.17
-        version: 22.15.17
+        specifier: 22.15.18
+        version: 22.15.18
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.4
@@ -1184,8 +1184,8 @@ packages:
   '@types/node@20.17.47':
     resolution: {integrity: sha512-3dLX0Upo1v7RvUimvxLeXqwrfyKxUINk0EAM83swP2mlSUcwV73sZy8XhNz8bcZ3VbsfQyC/y6jRdL5tgCNpDQ==}
 
-  '@types/node@22.15.17':
-    resolution: {integrity: sha512-wIX2aSZL5FE+MR0JlvF87BNVrtFWf6AE6rxSE9X7OwnVvoyCQjpzSRJ+M87se/4QCkCiebQAqrJ0y6fwIyi7nw==}
+  '@types/node@22.15.18':
+    resolution: {integrity: sha512-v1DKRfUdyW+jJhZNEI1PYy29S2YRxMV5AOO/x/SjKmW0acCIOqmbj6Haf9eHAhsPmrhlHSxEhv/1WszcLWV4cg==}
 
   '@types/react-dom@19.1.5':
     resolution: {integrity: sha512-CMCjrWucUBZvohgZxkjd6S9h0nZxXjzus6yDfUb+xLxYM7VvjKNH1tQrE9GWLql1XoOP4/Ds3bwFqShHUYraGg==}
@@ -3262,12 +3262,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.2.6(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))':
+  '@astrojs/mdx@4.2.6(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
+      astro: 5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3285,15 +3285,15 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/react@4.2.7(@types/node@22.15.17)(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)':
+  '@astrojs/react@4.2.7(@types/node@22.15.18)(@types/react-dom@19.1.5(@types/react@19.1.4))(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)':
     dependencies:
       '@types/react': 19.1.4
       '@types/react-dom': 19.1.5(@types/react@19.1.4)
-      '@vitejs/plugin-react': 4.4.1(vite@6.3.4(@types/node@22.15.17)(yaml@2.8.0))
+      '@vitejs/plugin-react': 4.4.1(vite@6.3.4(@types/node@22.15.18)(yaml@2.8.0))
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       ultrahtml: 1.6.0
-      vite: 6.3.4(@types/node@22.15.17)(yaml@2.8.0)
+      vite: 6.3.4(@types/node@22.15.18)(yaml@2.8.0)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -3314,17 +3314,17 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.4
 
-  '@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))':
+  '@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
-      '@astrojs/mdx': 4.2.6(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
+      '@astrojs/mdx': 4.2.6(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
       '@astrojs/sitemap': 3.3.1
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
-      astro-expressive-code: 0.41.2(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
+      astro: 5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
+      astro-expressive-code: 0.41.2(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.4
@@ -4583,7 +4583,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 22.15.17
+      '@types/node': 22.15.18
 
   '@types/hast@3.0.4':
     dependencies:
@@ -4611,7 +4611,7 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
-  '@types/node@22.15.17':
+  '@types/node@22.15.18':
     dependencies:
       undici-types: 6.21.0
 
@@ -4625,7 +4625,7 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 22.15.17
+      '@types/node': 22.15.18
 
   '@types/unist@2.0.11': {}
 
@@ -4658,14 +4658,14 @@ snapshots:
       unhead: 1.11.20
       vue: 3.5.14(typescript@5.8.3)
 
-  '@vitejs/plugin-react@4.4.1(vite@6.3.4(@types/node@22.15.17)(yaml@2.8.0))':
+  '@vitejs/plugin-react@4.4.1(vite@6.3.4(@types/node@22.15.18)(yaml@2.8.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.10)
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.4(@types/node@22.15.17)(yaml@2.8.0)
+      vite: 6.3.4(@types/node@22.15.18)(yaml@2.8.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4879,12 +4879,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.41.2(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)):
+  astro-expressive-code@0.41.2(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)):
     dependencies:
-      astro: 5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
+      astro: 5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
       rehype-expressive-code: 0.41.2
 
-  astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0):
+  astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
@@ -4938,8 +4938,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
-      vite: 6.3.4(@types/node@22.15.17)(yaml@2.8.0)
-      vitefu: 1.0.6(vite@6.3.4(@types/node@22.15.17)(yaml@2.8.0))
+      vite: 6.3.4(@types/node@22.15.18)(yaml@2.8.0)
+      vitefu: 1.0.6(vite@6.3.4(@types/node@22.15.18)(yaml@2.8.0))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.2
@@ -6693,12 +6693,12 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-openapi@0.16.1(@astrojs/markdown-remark@6.3.1)(@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)))(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))(openapi-types@12.1.3):
+  starlight-openapi@0.16.1(@astrojs/markdown-remark@6.3.1)(@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)))(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))(openapi-types@12.1.3):
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
-      '@astrojs/starlight': 0.34.3(astro@5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
+      '@astrojs/starlight': 0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
       '@readme/openapi-parser': 2.7.0(openapi-types@12.1.3)
-      astro: 5.7.13(@types/node@22.15.17)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
+      astro: 5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)
       github-slugger: 2.0.0
       url-template: 3.1.1
     transitivePeerDependencies:
@@ -6922,7 +6922,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.3.4(@types/node@22.15.17)(yaml@2.8.0):
+  vite@6.3.4(@types/node@22.15.18)(yaml@2.8.0):
     dependencies:
       esbuild: 0.25.3
       fdir: 6.4.4(picomatch@4.0.2)
@@ -6931,13 +6931,13 @@ snapshots:
       rollup: 4.40.1
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.15.17
+      '@types/node': 22.15.18
       fsevents: 2.3.3
       yaml: 2.8.0
 
-  vitefu@1.0.6(vite@6.3.4(@types/node@22.15.17)(yaml@2.8.0)):
+  vitefu@1.0.6(vite@6.3.4(@types/node@22.15.18)(yaml@2.8.0)):
     optionalDependencies:
-      vite: 6.3.4(@types/node@22.15.17)(yaml@2.8.0)
+      vite: 6.3.4(@types/node@22.15.18)(yaml@2.8.0)
 
   volar-service-css@0.0.62(@volar/language-service@2.4.12):
     dependencies:
