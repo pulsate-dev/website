@@ -33,8 +33,8 @@ importers:
         specifier: ^0.34.0
         version: 0.34.1
       starlight-openapi:
-        specifier: ^0.16.0
-        version: 0.16.1(@astrojs/markdown-remark@6.3.1)(@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)))(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))(openapi-types@12.1.3)
+        specifier: ^0.17.0
+        version: 0.17.0(@astrojs/markdown-remark@6.3.1)(@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)))(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))(openapi-types@12.1.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.8.3
@@ -2643,8 +2643,8 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  starlight-openapi@0.16.1:
-    resolution: {integrity: sha512-AMkXMhV5Zo4QdTteBwxRdnHQ9NycMhCD07qUSDdbgUs0DyUN6BoiGUYPXgFTHMDLqy4+VFK5uCevh6CpVOc/uw==}
+  starlight-openapi@0.17.0:
+    resolution: {integrity: sha512-YpsCixhHppsB8KZpFfVwF/0YzS3tE2zHZJQaCPb3Vld0AvKZaFsETr7WzklTDmVPv94CgQt5quZrWnVX3TrWQw==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/markdown-remark': '>=6.0.1'
@@ -3365,7 +3365,7 @@ snapshots:
 
   '@babel/code-frame@7.26.2':
     dependencies:
-      '@babel/helper-validator-identifier': 7.25.9
+      '@babel/helper-validator-identifier': 7.27.1
       js-tokens: 4.0.0
       picocolors: 1.1.1
 
@@ -6693,7 +6693,7 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-openapi@0.16.1(@astrojs/markdown-remark@6.3.1)(@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)))(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))(openapi-types@12.1.3):
+  starlight-openapi@0.17.0(@astrojs/markdown-remark@6.3.1)(@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0)))(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))(openapi-types@12.1.3):
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
       '@astrojs/starlight': 0.34.3(astro@5.7.13(@types/node@22.15.18)(rollup@4.40.1)(typescript@5.8.3)(yaml@2.8.0))
