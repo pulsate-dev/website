@@ -1,7 +1,7 @@
 {
   "name": "website",
   "description": "Website and Documentation for pulsate project",
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.15.0",
   "license": "MIT",
   "author": {
     "name": "pulsate-dev",
