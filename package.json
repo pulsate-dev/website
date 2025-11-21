@@ -32,10 +32,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.0",
-    "@types/node": "22.19.1",
+    "@types/node": "24.10.1",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "lefthook": "^1.7.14",
+    "lefthook": "^2.0.0",
     "typescript": "^5.5.4"
   }
 }
