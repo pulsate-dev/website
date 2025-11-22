@@ -13,16 +13,16 @@ importers:
         version: 0.9.5(typescript@5.9.3)
       '@astrojs/react':
         specifier: ^4.0.0
-        version: 4.4.2(@types/node@22.19.1)(@types/react-dom@19.2.3(@types/react@19.2.6))(@types/react@19.2.6)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(yaml@2.8.1)
+        version: 4.4.2(@types/node@24.10.1)(@types/react-dom@19.2.3(@types/react@19.2.6))(@types/react@19.2.6)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(yaml@2.8.1)
       '@astrojs/starlight':
         specifier: ^0.36.0
-        version: 0.36.2(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
+        version: 0.36.2(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
       '@scalar/api-reference-react':
         specifier: ^0.8.0
         version: 0.8.5(react@19.2.0)(tailwindcss@4.0.17)(typescript@5.9.3)
       astro:
         specifier: ^5.0.0
-        version: 5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+        version: 5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       react:
         specifier: ^19.0.0
         version: 19.2.0
@@ -34,14 +34,14 @@ importers:
         version: 0.34.5
       starlight-openapi:
         specifier: ^0.21.0
-        version: 0.21.1(@astrojs/markdown-remark@6.3.8)(@astrojs/starlight@0.36.2(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)))(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(openapi-types@12.1.3)
+        version: 0.21.1(@astrojs/markdown-remark@6.3.8)(@astrojs/starlight@0.36.2(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)))(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(openapi-types@12.1.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.0.0
         version: 2.3.6
       '@types/node':
-        specifier: 22.19.1
-        version: 22.19.1
+        specifier: 24.10.1
+        version: 24.10.1
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.6
@@ -49,8 +49,8 @@ importers:
         specifier: ^19.0.0
         version: 19.2.3(@types/react@19.2.6)
       lefthook:
-        specifier: ^1.7.14
-        version: 1.13.6
+        specifier: ^2.0.0
+        version: 2.0.4
       typescript:
         specifier: ^5.5.4
         version: 5.9.3
@@ -1130,6 +1130,9 @@ packages:
   '@types/node@22.19.1':
     resolution: {integrity: sha512-LCCV0HdSZZZb34qifBsyWlUmok6W7ouER+oQIGBScS8EsZsQbrtFTUrDX4hOl+CS6p7cnNC4td+qrSVGSCTUfQ==}
 
+  '@types/node@24.10.1':
+    resolution: {integrity: sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==}
+
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
     peerDependencies:
@@ -1961,58 +1964,58 @@ packages:
     resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
     engines: {node: '>= 8'}
 
-  lefthook-darwin-arm64@1.13.6:
-    resolution: {integrity: sha512-m6Lb77VGc84/Qo21Lhq576pEvcgFCnvloEiP02HbAHcIXD0RTLy9u2yAInrixqZeaz13HYtdDaI7OBYAAdVt8A==}
+  lefthook-darwin-arm64@2.0.4:
+    resolution: {integrity: sha512-AR63/O5UkM7Sc6x5PhP4vTuztTYRBeBroXApeWGM/8e5uZyoQug/7KTh7xhbCMDf8WJv6vdFeXAQCPSmDyPU3Q==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@1.13.6:
-    resolution: {integrity: sha512-CoRpdzanu9RK3oXR1vbEJA5LN7iB+c7hP+sONeQJzoOXuq4PNKVtEaN84Gl1BrVtCNLHWFAvCQaZPPiiXSy8qg==}
+  lefthook-darwin-x64@2.0.4:
+    resolution: {integrity: sha512-618DVUttSzV9egQiqTQoxGfnR240JoPWYmqRVHhiegnQKZ2lp5XJ+7NMxeRk/ih93VVOLzFO5ky3PbpxTmJgjQ==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-freebsd-arm64@1.13.6:
-    resolution: {integrity: sha512-X4A7yfvAJ68CoHTqP+XvQzdKbyd935sYy0bQT6Ajz7FL1g7hFiro8dqHSdPdkwei9hs8hXeV7feyTXbYmfjKQQ==}
+  lefthook-freebsd-arm64@2.0.4:
+    resolution: {integrity: sha512-mTAQym1BK38fKglHBQ/0GXPznVC4LoStHO5lAI3ZxaEC0FQetqGHYFzhWbIH5sde9JhztE2rL/aBzMHDoAtzSw==}
     cpu: [arm64]
     os: [freebsd]
 
-  lefthook-freebsd-x64@1.13.6:
-    resolution: {integrity: sha512-ai2m+Sj2kGdY46USfBrCqLKe9GYhzeq01nuyDYCrdGISePeZ6udOlD1k3lQKJGQCHb0bRz4St0r5nKDSh1x/2A==}
+  lefthook-freebsd-x64@2.0.4:
+    resolution: {integrity: sha512-sy02aSxd8UMd6XmiPFVl/Em0b78jdZcDSsLwg+bweJQQk0l+vJhOfqFiG11mbnpo+EBIZmRe6OH5LkxeSU36+w==}
     cpu: [x64]
     os: [freebsd]
 
-  lefthook-linux-arm64@1.13.6:
-    resolution: {integrity: sha512-cbo4Wtdq81GTABvikLORJsAWPKAJXE8Q5RXsICFUVznh5PHigS9dFW/4NXywo0+jfFPCT6SYds2zz4tCx6DA0Q==}
+  lefthook-linux-arm64@2.0.4:
+    resolution: {integrity: sha512-W0Nlr/Cz2QTH9n4k5zNrk3LSsg1C4wHiJi8hrAiQVTaAV/N1XrKqd0DevqQuouuapG6pw/6B1xCgiNPebv9oyw==}
     cpu: [arm64]
     os: [linux]
 
-  lefthook-linux-x64@1.13.6:
-    resolution: {integrity: sha512-uJl9vjCIIBTBvMZkemxCE+3zrZHlRO7Oc+nZJ+o9Oea3fu+W82jwX7a7clw8jqNfaeBS+8+ZEQgiMHWCloTsGw==}
+  lefthook-linux-x64@2.0.4:
+    resolution: {integrity: sha512-N6ySVCtB/DrOZ1ZgPL8WBZTgtoVHvcPKI+LV5wbcGrvA/dzDZFvniadrbDWZg7Tm705efiQzyENjwhhqNkwiww==}
     cpu: [x64]
     os: [linux]
 
-  lefthook-openbsd-arm64@1.13.6:
-    resolution: {integrity: sha512-7r153dxrNRQ9ytRs2PmGKKkYdvZYFPre7My7XToSTiRu5jNCq++++eAKVkoyWPduk97dGIA+YWiEr5Noe0TK2A==}
+  lefthook-openbsd-arm64@2.0.4:
+    resolution: {integrity: sha512-VmOhJO3pYzZ/1C2WFXtL/n5pq4/eYOroqJJpwTJfmCHyw4ceLACu8MDyU5AMJhGMkbL8mPxGInJKxg5xhYgGRw==}
     cpu: [arm64]
     os: [openbsd]
 
-  lefthook-openbsd-x64@1.13.6:
-    resolution: {integrity: sha512-Z+UhLlcg1xrXOidK3aLLpgH7KrwNyWYE3yb7ITYnzJSEV8qXnePtVu8lvMBHs/myzemjBzeIr/U/+ipjclR06g==}
+  lefthook-openbsd-x64@2.0.4:
+    resolution: {integrity: sha512-U8MZz1xlHUdflkQQ2hkMQsei6fSZbs8tuE4EjCIHWnNdnAF4V8sZ6n1KbxsJcoZXPyBZqxZSMu1o/Ye8IAMVKg==}
     cpu: [x64]
     os: [openbsd]
 
-  lefthook-windows-arm64@1.13.6:
-    resolution: {integrity: sha512-Uxef6qoDxCmUNQwk8eBvddYJKSBFglfwAY9Y9+NnnmiHpWTjjYiObE9gT2mvGVpEgZRJVAatBXc+Ha5oDD/OgQ==}
+  lefthook-windows-arm64@2.0.4:
+    resolution: {integrity: sha512-543H3y2JAwNdvwUQ6nlNBG7rdKgoOUgzAa6pYcl6EoqicCRrjRmGhkJu7vUudkkrD2Wjm7tr9hU9poP2g5fRFQ==}
     cpu: [arm64]
     os: [win32]
 
-  lefthook-windows-x64@1.13.6:
-    resolution: {integrity: sha512-mOZoM3FQh3o08M8PQ/b3IYuL5oo36D9ehczIw1dAgp1Ly+Tr4fJ96A+4SEJrQuYeRD4mex9bR7Ps56I73sBSZA==}
+  lefthook-windows-x64@2.0.4:
+    resolution: {integrity: sha512-UDEPK9RWKm60xsNOdS/DQOdFba0SFa4w3tpFMXK1AJzmRHhosoKrorXGhtTr6kcM0MGKOtYi8GHsm++ArZ9wvQ==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@1.13.6:
-    resolution: {integrity: sha512-ojj4/4IJ29Xn4drd5emqVgilegAPN3Kf0FQM2p/9+lwSTpU+SZ1v4Ig++NF+9MOa99UKY8bElmVrLhnUUNFh5g==}
+  lefthook@2.0.4:
+    resolution: {integrity: sha512-GNCU2vQWM/UWjiEF23601aILi1aMbPke6viortH7wIO/oVGOCW0H6FdLez4XZDyqnHL9XkTnd0BBVrBbYVMLpA==}
     hasBin: true
 
   leven@3.1.0:
@@ -2697,6 +2700,9 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+
   unhead@1.11.20:
     resolution: {integrity: sha512-3AsNQC0pjwlLqEYHLjtichGWankK8yqmocReITecmpB1H0aOabeESueyy+8X1gyJx4ftZVwo9hqQ4O3fPWffCA==}
 
@@ -3185,12 +3191,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.10(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))':
+  '@astrojs/mdx@4.3.10(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
       '@mdx-js/mdx': 3.1.1
       acorn: 8.15.0
-      astro: 5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3208,15 +3214,15 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/react@4.4.2(@types/node@22.19.1)(@types/react-dom@19.2.3(@types/react@19.2.6))(@types/react@19.2.6)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(yaml@2.8.1)':
+  '@astrojs/react@4.4.2(@types/node@24.10.1)(@types/react-dom@19.2.3(@types/react@19.2.6))(@types/react@19.2.6)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(yaml@2.8.1)':
     dependencies:
       '@types/react': 19.2.6
       '@types/react-dom': 19.2.3(@types/react@19.2.6)
-      '@vitejs/plugin-react': 4.7.0(vite@6.4.1(@types/node@22.19.1)(yaml@2.8.1))
+      '@vitejs/plugin-react': 4.7.0(vite@6.4.1(@types/node@24.10.1)(yaml@2.8.1))
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
       ultrahtml: 1.6.0
-      vite: 6.4.1(@types/node@22.19.1)(yaml@2.8.1)
+      vite: 6.4.1(@types/node@24.10.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -3237,17 +3243,17 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
-  '@astrojs/starlight@0.36.2(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))':
+  '@astrojs/starlight@0.36.2(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
-      '@astrojs/mdx': 4.3.10(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
+      '@astrojs/mdx': 4.3.10(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
       '@astrojs/sitemap': 3.6.0
       '@pagefind/default-ui': 1.4.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
-      astro-expressive-code: 0.41.3(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
+      astro: 5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+      astro-expressive-code: 0.41.3(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.4
@@ -4511,7 +4517,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 22.19.1
+      '@types/node': 24.10.1
 
   '@types/har-format@1.2.16': {}
 
@@ -4541,6 +4547,10 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
+  '@types/node@24.10.1':
+    dependencies:
+      undici-types: 7.16.0
+
   '@types/react-dom@19.2.3(@types/react@19.2.6)':
     dependencies:
       '@types/react': 19.2.6
@@ -4551,7 +4561,7 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 22.19.1
+      '@types/node': 24.10.1
 
   '@types/unist@2.0.11': {}
 
@@ -4586,7 +4596,7 @@ snapshots:
       unhead: 1.11.20
       vue: 3.5.24(typescript@5.9.3)
 
-  '@vitejs/plugin-react@4.7.0(vite@6.4.1(@types/node@22.19.1)(yaml@2.8.1))':
+  '@vitejs/plugin-react@4.7.0(vite@6.4.1(@types/node@24.10.1)(yaml@2.8.1))':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.5)
@@ -4594,7 +4604,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.27
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.4.1(@types/node@22.19.1)(yaml@2.8.1)
+      vite: 6.4.1(@types/node@24.10.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4799,12 +4809,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.41.3(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)):
+  astro-expressive-code@0.41.3(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)):
     dependencies:
-      astro: 5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       rehype-expressive-code: 0.41.3
 
-  astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
@@ -4860,8 +4870,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.17.2
       vfile: 6.0.3
-      vite: 6.4.1(@types/node@22.19.1)(yaml@2.8.1)
-      vitefu: 1.1.1(vite@6.4.1(@types/node@22.19.1)(yaml@2.8.1))
+      vite: 6.4.1(@types/node@24.10.1)(yaml@2.8.1)
+      vitefu: 1.1.1(vite@6.4.1(@types/node@24.10.1)(yaml@2.8.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -5565,48 +5575,48 @@ snapshots:
 
   klona@2.0.6: {}
 
-  lefthook-darwin-arm64@1.13.6:
+  lefthook-darwin-arm64@2.0.4:
     optional: true
 
-  lefthook-darwin-x64@1.13.6:
+  lefthook-darwin-x64@2.0.4:
     optional: true
 
-  lefthook-freebsd-arm64@1.13.6:
+  lefthook-freebsd-arm64@2.0.4:
     optional: true
 
-  lefthook-freebsd-x64@1.13.6:
+  lefthook-freebsd-x64@2.0.4:
     optional: true
 
-  lefthook-linux-arm64@1.13.6:
+  lefthook-linux-arm64@2.0.4:
     optional: true
 
-  lefthook-linux-x64@1.13.6:
+  lefthook-linux-x64@2.0.4:
     optional: true
 
-  lefthook-openbsd-arm64@1.13.6:
+  lefthook-openbsd-arm64@2.0.4:
     optional: true
 
-  lefthook-openbsd-x64@1.13.6:
+  lefthook-openbsd-x64@2.0.4:
     optional: true
 
-  lefthook-windows-arm64@1.13.6:
+  lefthook-windows-arm64@2.0.4:
     optional: true
 
-  lefthook-windows-x64@1.13.6:
+  lefthook-windows-x64@2.0.4:
     optional: true
 
-  lefthook@1.13.6:
+  lefthook@2.0.4:
     optionalDependencies:
-      lefthook-darwin-arm64: 1.13.6
-      lefthook-darwin-x64: 1.13.6
-      lefthook-freebsd-arm64: 1.13.6
-      lefthook-freebsd-x64: 1.13.6
-      lefthook-linux-arm64: 1.13.6
-      lefthook-linux-x64: 1.13.6
-      lefthook-openbsd-arm64: 1.13.6
-      lefthook-openbsd-x64: 1.13.6
-      lefthook-windows-arm64: 1.13.6
-      lefthook-windows-x64: 1.13.6
+      lefthook-darwin-arm64: 2.0.4
+      lefthook-darwin-x64: 2.0.4
+      lefthook-freebsd-arm64: 2.0.4
+      lefthook-freebsd-x64: 2.0.4
+      lefthook-linux-arm64: 2.0.4
+      lefthook-linux-x64: 2.0.4
+      lefthook-openbsd-arm64: 2.0.4
+      lefthook-openbsd-x64: 2.0.4
+      lefthook-windows-arm64: 2.0.4
+      lefthook-windows-x64: 2.0.4
 
   leven@3.1.0: {}
 
@@ -6575,12 +6585,12 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-openapi@0.21.1(@astrojs/markdown-remark@6.3.8)(@astrojs/starlight@0.36.2(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)))(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(openapi-types@12.1.3):
+  starlight-openapi@0.21.1(@astrojs/markdown-remark@6.3.8)(@astrojs/starlight@0.36.2(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)))(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(openapi-types@12.1.3):
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
-      '@astrojs/starlight': 0.36.2(astro@5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
+      '@astrojs/starlight': 0.36.2(astro@5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))
       '@readme/openapi-parser': 4.1.2(openapi-types@12.1.3)
-      astro: 5.15.8(@types/node@22.19.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.15.8(@types/node@24.10.1)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       github-slugger: 2.0.0
       url-template: 3.1.1
     transitivePeerDependencies:
@@ -6683,6 +6693,8 @@ snapshots:
   uncrypto@0.1.3: {}
 
   undici-types@6.21.0: {}
+
+  undici-types@7.16.0: {}
 
   unhead@1.11.20:
     dependencies:
@@ -6801,7 +6813,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite@6.4.1(@types/node@22.19.1)(yaml@2.8.1):
+  vite@6.4.1(@types/node@24.10.1)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -6810,13 +6822,13 @@ snapshots:
       rollup: 4.53.2
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 22.19.1
+      '@types/node': 24.10.1
       fsevents: 2.3.3
       yaml: 2.8.1
 
-  vitefu@1.1.1(vite@6.4.1(@types/node@22.19.1)(yaml@2.8.1)):
+  vitefu@1.1.1(vite@6.4.1(@types/node@24.10.1)(yaml@2.8.1)):
     optionalDependencies:
-      vite: 6.4.1(@types/node@22.19.1)(yaml@2.8.1)
+      vite: 6.4.1(@types/node@24.10.1)(yaml@2.8.1)
 
   volar-service-css@0.0.65(@volar/language-service@2.4.23):
     dependencies:
