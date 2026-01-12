@@ -19,7 +19,7 @@ importers:
         version: 0.37.2(astro@5.16.7(@types/node@24.10.4)(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
       '@scalar/api-reference-react':
         specifier: ^0.8.0
-        version: 0.8.19(react@19.2.3)(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)
+        version: 0.8.20(react@19.2.3)(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)
       astro:
         specifier: ^5.0.0
         version: 5.16.7(@types/node@24.10.4)(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)
@@ -1093,18 +1093,18 @@ packages:
     resolution: {integrity: sha512-ai4DJuxsNLUEgJIlYDE3n8/oF47M31Rgjz3LxbefzejxE8LiidUud/fcEzMYtdxqJYi3ketzhSbTWK0o6gg4mQ==}
     engines: {node: '>=20'}
 
-  '@scalar/api-client@2.17.5':
-    resolution: {integrity: sha512-8WH5RMS9E8WRzwqC7hpMkJ2AlCgwFjf1MNbxO61WnXq6BHZeLIhFmZlKtsCX2+7V4K5NR1I+EjhrGf9hX72Obg==}
+  '@scalar/api-client@2.17.6':
+    resolution: {integrity: sha512-72cRTeqcYswnSlij+EdqdiDFQRGfdECOZl8hWF6dJItBge8YB5XLh+OfFzpmC/puvq/fyKiOsPTDw1hcS4OaBA==}
     engines: {node: '>=20'}
 
-  '@scalar/api-reference-react@0.8.19':
-    resolution: {integrity: sha512-TruW/WoElt2pp5VGrdIr8O9hH4CTDIxy2IjG5hEHJPrZnCL78HB6FdFWLU37qexdKBRTSl4yiKEEgy/kirbgKQ==}
+  '@scalar/api-reference-react@0.8.20':
+    resolution: {integrity: sha512-s8zQUUoyy4HHgD5wclN35l9yc8LsJC9Zvgpg/y2e9GZ29PWRR+PCBc3xcWx3oa5zAT7tB4A+Y1HToKPTupBJFw==}
     engines: {node: '>=20'}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
 
-  '@scalar/api-reference@1.43.0':
-    resolution: {integrity: sha512-/PuswaYL8fXwlOH7d4fVsNgaQbLoPv+siUUkHMA7tQfQNvwjZ9DDL1ebI8Yl4nhcfG5bx4CEpLdqt4AeNDCFeA==}
+  '@scalar/api-reference@1.43.1':
+    resolution: {integrity: sha512-ZY7dOEBmhuccze4/lEKihOfvd/Qi5/JLBvd/PJwbRCIf5Js8FBVR+eRW2S0m/GGj7wSeDwUVqx1G+Ryr5QrB2A==}
     engines: {node: '>=20'}
 
   '@scalar/code-highlight@0.2.2':
@@ -1428,8 +1428,8 @@ packages:
   '@vue/shared@3.5.26':
     resolution: {integrity: sha512-7Z6/y3uFI5PRoKeorTOSXKcDj0MSasfNNltcslbFrPpcw6aXRUALq4IfJlaTRspiWIUOEZbrpM+iQGmCOiWe4A==}
 
-  '@vueless/storybook-dark-mode@10.0.4':
-    resolution: {integrity: sha512-0sNP9i7OkjVx+0JqKipd3rlaulv0bxcZFZ7OQL5+8Z2VXrQQR+jLBclRoLlZCoRA/wnNZA/gjia8dI8aqiF+DA==}
+  '@vueless/storybook-dark-mode@10.0.6':
+    resolution: {integrity: sha512-n8Lfk1x25Gc7Q4Ip46S+GV3kgKo4i7K0dVxB6MwvINWc3BWRqcxj+n8rDRxnb6BsyriPRNi5m6QKOGukyLisiA==}
     engines: {node: '>=20'}
     peerDependencies:
       storybook: ^10.0.0
@@ -4466,7 +4466,7 @@ snapshots:
     dependencies:
       zod: 4.3.5
 
-  '@scalar/api-client@2.17.5(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)':
+  '@scalar/api-client@2.17.6(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)':
     dependencies:
       '@headlessui/tailwindcss': 0.2.2(tailwindcss@4.0.17)
       '@headlessui/vue': 1.7.23(vue@3.5.26(typescript@5.9.3))
@@ -4524,9 +4524,9 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@scalar/api-reference-react@0.8.19(react@19.2.3)(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)':
+  '@scalar/api-reference-react@0.8.20(react@19.2.3)(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)':
     dependencies:
-      '@scalar/api-reference': 1.43.0(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)
+      '@scalar/api-reference': 1.43.1(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)
       '@scalar/types': 0.5.6
       react: 19.2.3
     transitivePeerDependencies:
@@ -4546,11 +4546,11 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@scalar/api-reference@1.43.0(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)':
+  '@scalar/api-reference@1.43.1(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)':
     dependencies:
       '@floating-ui/vue': 1.1.9(vue@3.5.26(typescript@5.9.3))
       '@headlessui/vue': 1.7.23(vue@3.5.26(typescript@5.9.3))
-      '@scalar/api-client': 2.17.5(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)
+      '@scalar/api-client': 2.17.6(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(tailwindcss@4.0.17)(typescript@5.9.3)
       '@scalar/code-highlight': 0.2.2
       '@scalar/components': 0.16.16(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)
       '@scalar/helpers': 0.2.6
@@ -4627,7 +4627,7 @@ snapshots:
       '@scalar/oas-utils': 0.6.14(typescript@5.9.3)
       '@scalar/themes': 0.13.26
       '@scalar/use-hooks': 0.3.5(typescript@5.9.3)
-      '@vueless/storybook-dark-mode': 10.0.4(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
+      '@vueless/storybook-dark-mode': 10.0.6(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
       '@vueuse/core': 13.9.0(vue@3.5.26(typescript@5.9.3))
       cva: 1.0.0-beta.2(typescript@5.9.3)
       nanoid: 5.1.5
@@ -5148,7 +5148,7 @@ snapshots:
 
   '@vue/shared@3.5.26': {}
 
-  '@vueless/storybook-dark-mode@10.0.4(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))':
+  '@vueless/storybook-dark-mode@10.0.6(storybook@10.1.11(@testing-library/dom@10.4.1)(prettier@3.7.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))':
     dependencies:
       '@storybook/global': 5.0.0
       lodash-es: 4.17.22
