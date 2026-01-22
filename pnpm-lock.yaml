@@ -33,8 +33,8 @@ importers:
         specifier: ^0.34.0
         version: 0.34.5
       starlight-openapi:
-        specifier: ^0.21.0
-        version: 0.21.1(@astrojs/markdown-remark@6.3.10)(@astrojs/starlight@0.37.3(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2)))(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2))(openapi-types@12.1.3)
+        specifier: ^0.22.0
+        version: 0.22.0(@astrojs/markdown-remark@6.3.10)(@astrojs/starlight@0.37.3(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2)))(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2))(openapi-types@12.1.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.0.0
@@ -2895,8 +2895,8 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  starlight-openapi@0.21.1:
-    resolution: {integrity: sha512-hHefUWQuLz26Fc8B0XOrdxOnOmJkKzyAssqEfDSZTC76GH05eT5/fCuJ76lq9N3uEjHmCKb6vWPlr7EbLbJQEg==}
+  starlight-openapi@0.22.0:
+    resolution: {integrity: sha512-4H/fywAoTcvKbcv+xBr9LdrjMc5geDOSnydvzpiOxjxkHvI6g+7uPhWNCejnJPyZUd/MC1MI23tvYug85d/WzA==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/markdown-remark': '>=6.0.1'
@@ -3740,13 +3740,13 @@ snapshots:
 
   '@babel/template@7.27.2':
     dependencies:
-      '@babel/code-frame': 7.27.1
+      '@babel/code-frame': 7.28.6
       '@babel/parser': 7.28.6
       '@babel/types': 7.28.6
 
   '@babel/traverse@7.28.5':
     dependencies:
-      '@babel/code-frame': 7.27.1
+      '@babel/code-frame': 7.28.6
       '@babel/generator': 7.28.5
       '@babel/helper-globals': 7.28.0
       '@babel/parser': 7.28.6
@@ -4375,7 +4375,7 @@ snapshots:
 
   '@readme/better-ajv-errors@2.3.2(ajv@8.17.1)':
     dependencies:
-      '@babel/code-frame': 7.27.1
+      '@babel/code-frame': 7.28.6
       '@babel/runtime': 7.28.6
       '@humanwhocodes/momoa': 2.0.4
       ajv: 8.17.1
@@ -7166,7 +7166,7 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-openapi@0.21.1(@astrojs/markdown-remark@6.3.10)(@astrojs/starlight@0.37.3(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2)))(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2))(openapi-types@12.1.3):
+  starlight-openapi@0.22.0(@astrojs/markdown-remark@6.3.10)(@astrojs/starlight@0.37.3(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2)))(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2))(openapi-types@12.1.3):
     dependencies:
       '@astrojs/markdown-remark': 6.3.10
       '@astrojs/starlight': 0.37.3(astro@5.16.11(@types/node@24.10.9)(rollup@4.55.3)(typescript@5.9.3)(yaml@2.8.2))
