@@ -34,7 +34,7 @@ importers:
         version: 0.34.5
       starlight-openapi:
         specifier: ^0.25.0
-        version: 0.25.0(@astrojs/markdown-remark@7.1.1)(@astrojs/starlight@0.39.2(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(typescript@6.0.3))(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(openapi-types@12.1.3)
+        version: 0.25.1(@astrojs/markdown-remark@7.1.1)(@astrojs/starlight@0.39.2(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(typescript@6.0.3))(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(openapi-types@12.1.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.0.0
@@ -218,8 +218,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
-  '@babel/runtime@7.28.6':
-    resolution: {integrity: sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==}
+  '@babel/runtime@7.29.2':
+    resolution: {integrity: sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.28.6':
@@ -820,8 +820,8 @@ packages:
   '@phosphor-icons/core@2.1.1':
     resolution: {integrity: sha512-v4ARvrip4qBCImOE5rmPUylOEK4iiED9ZyKjcvzuezqMaiRASCHKcRIuvvxL/twvLpkfnEODCOJp5dM4eZilxQ==}
 
-  '@readme/better-ajv-errors@2.3.2':
-    resolution: {integrity: sha512-T4GGnRAlY3C339NhoUpgJJFsMYko9vIgFAlhgV+/vEGFw66qEY4a4TRJIAZBcX/qT1pq5DvXSme+SQODHOoBrw==}
+  '@readme/better-ajv-errors@2.4.0':
+    resolution: {integrity: sha512-9WODaOAKSl/mU+MYNZ2aHCrkoRSvmQ+1YkLj589OEqqjOAhbn8j7Z+ilYoiTu/he6X63/clsxxAB4qny9/dDzg==}
     engines: {node: '>=18'}
     peerDependencies:
       ajv: 4.11.8 - 8
@@ -1525,9 +1525,6 @@ packages:
       ajv:
         optional: true
 
-  ajv@8.18.0:
-    resolution: {integrity: sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==}
-
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
 
@@ -1938,8 +1935,8 @@ packages:
   fast-string-width@3.0.2:
     resolution: {integrity: sha512-gX8LrtNEI5hq8DVUfRQMbr5lpaS4nMIWV+7XEbXk2b8kiQIizgnlr12B4dA3ZEx3308ze0O4Q1R+cHts8kyUJg==}
 
-  fast-uri@3.1.0:
-    resolution: {integrity: sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==}
+  fast-uri@3.1.2:
+    resolution: {integrity: sha512-rVjf7ArG3LTk+FS6Yw81V1DLuZl1bRbNrev6Tmd/9RaroeeRRJhAt7jg/6YFxbvAQXUCavSoZhPPj6oOx+5KjQ==}
 
   fast-wrap-ansi@0.2.0:
     resolution: {integrity: sha512-rLV8JHxTyhVmFYhBJuMujcrHqOT2cnO5Zxj37qROj23CP39GXubJRBUFF0z8KFK77Uc0SukZUf7JZhsVEQ6n8w==}
@@ -2964,8 +2961,8 @@ packages:
   split@1.0.1:
     resolution: {integrity: sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==}
 
-  starlight-openapi@0.25.0:
-    resolution: {integrity: sha512-3Y5nB/cSReTYLKZvWplOcG3S3NAWB04l9Q9B/m/KpJdT2OJUT9hqt2iWySGOKz5e5ShHVVNFlmLN0RjL4s7h7Q==}
+  starlight-openapi@0.25.1:
+    resolution: {integrity: sha512-FTFy2Uu1nd5O4dQwkVYzbosJG+4GgYXm2L5JDtc+be/gq4qofRksXNiBmnZGCrF1WTn6NOhNyFawoW5LgfSCzw==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       '@astrojs/markdown-remark': '>=7.0.0'
@@ -3827,7 +3824,7 @@ snapshots:
       '@babel/core': 7.29.0
       '@babel/helper-plugin-utils': 7.28.6
 
-  '@babel/runtime@7.28.6': {}
+  '@babel/runtime@7.29.2': {}
 
   '@babel/template@7.28.6':
     dependencies:
@@ -4399,12 +4396,12 @@ snapshots:
 
   '@phosphor-icons/core@2.1.1': {}
 
-  '@readme/better-ajv-errors@2.3.2(ajv@8.18.0)':
+  '@readme/better-ajv-errors@2.4.0(ajv@8.20.0)':
     dependencies:
       '@babel/code-frame': 7.29.0
-      '@babel/runtime': 7.28.6
+      '@babel/runtime': 7.29.2
       '@humanwhocodes/momoa': 2.0.4
-      ajv: 8.18.0
+      ajv: 8.20.0
       jsonpointer: 5.0.1
       leven: 3.1.0
       picocolors: 1.1.1
@@ -4412,11 +4409,11 @@ snapshots:
   '@readme/openapi-parser@4.1.2(openapi-types@12.1.3)':
     dependencies:
       '@apidevtools/json-schema-ref-parser': 13.0.5
-      '@readme/better-ajv-errors': 2.3.2(ajv@8.18.0)
+      '@readme/better-ajv-errors': 2.4.0(ajv@8.20.0)
       '@readme/openapi-schemas': 3.1.0
       '@types/json-schema': 7.0.15
-      ajv: 8.18.0
-      ajv-draft-04: 1.0.0(ajv@8.18.0)
+      ajv: 8.20.0
+      ajv-draft-04: 1.0.0(ajv@8.20.0)
       openapi-types: 12.1.3
 
   '@readme/openapi-schemas@3.1.0': {}
@@ -5264,25 +5261,14 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       zod: 4.4.3
 
-  ajv-draft-04@1.0.0(ajv@8.18.0):
-    optionalDependencies:
-      ajv: 8.18.0
-
   ajv-draft-04@1.0.0(ajv@8.20.0):
     optionalDependencies:
       ajv: 8.20.0
 
-  ajv@8.18.0:
-    dependencies:
-      fast-deep-equal: 3.1.3
-      fast-uri: 3.1.0
-      json-schema-traverse: 1.0.0
-      require-from-string: 2.0.2
-
   ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.0
+      fast-uri: 3.1.2
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -5770,7 +5756,7 @@ snapshots:
     dependencies:
       fast-string-truncated-width: 3.0.3
 
-  fast-uri@3.1.0: {}
+  fast-uri@3.1.2: {}
 
   fast-wrap-ansi@0.2.0:
     dependencies:
@@ -7313,7 +7299,7 @@ snapshots:
     dependencies:
       through: 2.3.8
 
-  starlight-openapi@0.25.0(@astrojs/markdown-remark@7.1.1)(@astrojs/starlight@0.39.2(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(typescript@6.0.3))(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(openapi-types@12.1.3):
+  starlight-openapi@0.25.1(@astrojs/markdown-remark@7.1.1)(@astrojs/starlight@0.39.2(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(typescript@6.0.3))(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(openapi-types@12.1.3):
     dependencies:
       '@astrojs/markdown-remark': 7.1.1
       '@astrojs/starlight': 0.39.2(astro@6.3.1(@types/node@24.12.3)(rollup@4.60.3)(yaml@2.8.4))(typescript@6.0.3)
