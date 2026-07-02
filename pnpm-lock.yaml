@@ -33,8 +33,8 @@ importers:
         specifier: ^0.35.0
         version: 0.35.2
       starlight-openapi:
-        specifier: ^0.25.0
-        version: 0.25.3(@astrojs/markdown-remark@7.2.0)(@astrojs/starlight@0.40.0(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(typescript@6.0.3))(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(openapi-types@12.1.3)
+        specifier: ^0.26.0
+        version: 0.26.0(@astrojs/starlight@0.40.0(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(typescript@6.0.3))(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(openapi-types@12.1.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.0.0
@@ -154,10 +154,6 @@ packages:
 
   '@astrojs/yaml2ts@0.2.3':
     resolution: {integrity: sha512-PJzRmgQzUxI2uwpdX2lXSHtP4G8ocp24/t+bZyf5Fy0SZLSF9f9KXZoMlFM/XCGue+B0nH/2IZ7FpBYQATBsCg==}
-
-  '@babel/code-frame@7.29.0':
-    resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
-    engines: {node: '>=6.9.0'}
 
   '@babel/code-frame@7.29.7':
     resolution: {integrity: sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==}
@@ -2933,13 +2929,13 @@ packages:
   split@1.0.1:
     resolution: {integrity: sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==}
 
-  starlight-openapi@0.25.3:
-    resolution: {integrity: sha512-erFtGyU1NI1mHmlRrVo/SWLdVvjFr1Qsxwz1bnOss/rOSBH3Tgq39rSlkXr9HWbSTnbjIpZkitgYw+s73zk5pA==}
+  starlight-openapi@0.26.0:
+    resolution: {integrity: sha512-+WJnS7nIW42KfgmtBvTdj0Sx0LR+3kYPCdXMoiiMxKWDTF9TBd8KhTRDqNiPPrksej+gItZV/ROKwsXoF2/qZQ==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
-      '@astrojs/markdown-remark': '>=7.0.0'
-      '@astrojs/starlight': '>=0.38.0'
-      astro: '>=6.0.0'
+      '@astrojs/markdown-satteri': '>=0.3.2'
+      '@astrojs/starlight': '>=0.41.0'
+      astro: '>=7.0.2'
 
   stream-combiner@0.2.2:
     resolution: {integrity: sha512-6yHMqgLYDzQDcAkL+tjJDC5nSNuNIx0vZtRZeiPh7Saef7VHX9H5Ijn9l2VIol2zaNYlYEX6KyuT/237A58qEQ==}
@@ -3463,7 +3459,7 @@ snapshots:
   '@apidevtools/json-schema-ref-parser@13.0.5':
     dependencies:
       '@types/json-schema': 7.0.15
-      js-yaml: 4.2.0
+      js-yaml: 4.3.0
 
   '@astrojs/check@0.9.9(prettier@3.8.3)(typescript@6.0.3)':
     dependencies:
@@ -3639,12 +3635,6 @@ snapshots:
   '@astrojs/yaml2ts@0.2.3':
     dependencies:
       yaml: 2.9.0
-
-  '@babel/code-frame@7.29.0':
-    dependencies:
-      '@babel/helper-validator-identifier': 7.29.7
-      js-tokens: 4.0.0
-      picocolors: 1.1.1
 
   '@babel/code-frame@7.29.7':
     dependencies:
@@ -4424,7 +4414,7 @@ snapshots:
 
   '@readme/better-ajv-errors@2.4.0(ajv@8.20.0)':
     dependencies:
-      '@babel/code-frame': 7.29.0
+      '@babel/code-frame': 7.29.7
       '@babel/runtime': 7.29.2
       '@humanwhocodes/momoa': 2.0.4
       ajv: 8.20.0
@@ -7181,9 +7171,8 @@ snapshots:
     dependencies:
       through: 2.3.8
 
-  starlight-openapi@0.25.3(@astrojs/markdown-remark@7.2.0)(@astrojs/starlight@0.40.0(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(typescript@6.0.3))(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(openapi-types@12.1.3):
+  starlight-openapi@0.26.0(@astrojs/starlight@0.40.0(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(typescript@6.0.3))(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(openapi-types@12.1.3):
     dependencies:
-      '@astrojs/markdown-remark': 7.2.0
       '@astrojs/starlight': 0.40.0(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(typescript@6.0.3)
       '@readme/openapi-parser': 4.1.2(openapi-types@12.1.3)
       astro: 6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0)
