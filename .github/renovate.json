@@ -1,4 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>pulsate-dev/renovate-conf"]
+  "extends": ["github>pulsate-dev/renovate-conf"],
+  "packageRules": [
+    {
+      "groupName": "Astro packages",
+      "matchPackageNames": [
+        "@astrojs/**",
+        "astro",
+        "starlight-openapi"
+      ]
+    }
+  ]
 }
