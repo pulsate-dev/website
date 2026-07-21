@@ -51,7 +51,7 @@ export default defineConfig({
             label: "API Reference",
             // TODO: `main` からタグに切り替える
             schema:
-              "https://raw.githubusercontent.com/pulsate-dev/pulsate/main/resources/schema.json",
+              "https://unpkg.com/@pulsate-dev/api-schema@latest/schema.json",
           },
         ]),
       ],
