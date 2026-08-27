@@ -49,9 +49,7 @@ export default defineConfig({
           {
             base: "api-reference",
             label: "API Reference",
-            // TODO: `main` からタグに切り替える
-            schema:
-              "https://raw.githubusercontent.com/pulsate-dev/pulsate/main/resources/schema.json",
+            schema: "./node_modules/@pulsate-dev/api-schema/schema.json",
           },
         ]),
       ],
@@ -62,13 +60,6 @@ export default defineConfig({
             en: "Start Guide",
           },
           items: ["beginner/what-is-pulsate", "beginner/getting-started"],
-        },
-        {
-          label: "ユーザーガイド",
-          translations: {
-            en: "User Guide",
-          },
-          items: ["user/post"],
         },
         {
           label: "コミュニティ",

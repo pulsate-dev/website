@@ -17,6 +17,9 @@ importers:
       '@astrojs/starlight':
         specifier: 0.40.0
         version: 0.40.0(astro@6.4.8(@types/node@24.13.2)(rollup@4.62.0)(yaml@2.9.0))(typescript@6.0.3)
+      '@pulsate-dev/api-schema':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@scalar/api-reference-react':
         specifier: ^0.9.0
         version: 0.9.50(react@19.2.7)(tailwindcss@4.0.17)(typescript@6.0.3)(zod@4.4.3)
@@ -997,6 +1000,9 @@ packages:
 
   '@phosphor-icons/core@2.1.1':
     resolution: {integrity: sha512-v4ARvrip4qBCImOE5rmPUylOEK4iiED9ZyKjcvzuezqMaiRASCHKcRIuvvxL/twvLpkfnEODCOJp5dM4eZilxQ==}
+
+  '@pulsate-dev/api-schema@0.1.0':
+    resolution: {integrity: sha512-q8o/LENURo6qShfWjrFm3L/8RQFgArFTTbFm+NPG2uMo+HTTDvWQffVPk6J+yHYTYbPzmh53wLNWE8ygbiu1Mw==}
 
   '@readme/better-ajv-errors@2.4.0':
     resolution: {integrity: sha512-9WODaOAKSl/mU+MYNZ2aHCrkoRSvmQ+1YkLj589OEqqjOAhbn8j7Z+ilYoiTu/he6X63/clsxxAB4qny9/dDzg==}
@@ -4432,6 +4438,8 @@ snapshots:
     optional: true
 
   '@phosphor-icons/core@2.1.1': {}
+
+  '@pulsate-dev/api-schema@0.1.0': {}
 
   '@readme/better-ajv-errors@2.4.0(ajv@8.20.0)':
     dependencies:
