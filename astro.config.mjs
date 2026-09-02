@@ -49,7 +49,9 @@ export default defineConfig({
           {
             base: "api-reference",
             label: "API Reference",
-            schema: "./node_modules/@pulsate-dev/api-schema/schema.json",
+            // TODO: `main` からタグに切り替える
+            schema:
+              "https://unpkg.com/@pulsate-dev/api-schema@latest/schema.json",
           },
         ]),
       ],
