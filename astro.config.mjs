@@ -63,20 +63,6 @@ export default defineConfig({
           },
           items: ["beginner/what-is-pulsate", "beginner/getting-started"],
         },
-        {
-          label: "ユーザーガイド",
-          translations: {
-            en: "User Guide",
-          },
-          items: ["user/post"],
-        },
-        {
-          label: "コミュニティ",
-          translations: {
-            en: "Community",
-          },
-          items: ["community/sponsor"],
-        },
         ...openAPISidebarGroups,
       ],
     }),
