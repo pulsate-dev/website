@@ -1,0 +1,14 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "website",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist/",
+    "not_found_handling": "404-page",
+  },
+  // A route rather than a custom domain: it rides on the proxied CNAME that
+  // pulsate-dev/infra manages, so cutover and rollback need no DNS change.
+  "routes": [{ "pattern": "pulsate.dev/*", "zone_name": "pulsate.dev" }],
+  "workers_dev": false,
+  "preview_urls": false,
+}
