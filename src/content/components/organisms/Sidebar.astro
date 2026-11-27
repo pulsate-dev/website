@@ -1,0 +1,10 @@
+---
+import Default from "@astrojs/starlight/components/Sidebar.astro";
+import { TopicsDropdown } from "starlight-sidebar-topics-dropdown";
+
+const { hasSidebar } = Astro.locals.starlightRoute;
+const { isPageWithTopic } = Astro.locals.starlightSidebarTopics;
+---
+
+{hasSidebar && isPageWithTopic && <TopicsDropdown />}
+<Default><slot /></Default>
